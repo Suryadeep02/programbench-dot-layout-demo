@@ -1,0 +1,16 @@
+graph 1 3.3444 5.7889
+node "beta two" 1.0834 5.5389 0.88635 0.5 "beta two" solid box blue blue
+node "gamma three" 1.0834 4.525 1.2318 0.5 "gamma three" solid box blue blue
+node final_9 1.0834 3.2917 1.0664 0.5 final_9 solid ellipse gray30 gray30
+node audit_9 0.55559 2.2778 1.1112 0.5 audit_9 solid ellipse gray30 gray30
+node sink 1.6111 1.2639 0.75 0.5 sink solid box gray30 gray30
+node "quoted end" 1.6111 0.25 2.1086 0.5 "quoted end" solid diamond gray30 gray30
+node "say \"go\"" 2.9028 2.2778 0.88322 0.5 "say \"go\"" solid box gray30 gray30
+edge "beta two" "gamma three" 4 1.0834 5.2863 1.0834 5.1809 1.0834 5.0542 1.0834 4.9353 solid black
+edge "gamma three" final_9 4 1.0834 4.2729 1.0834 4.1105 1.0834 3.8916 1.0834 3.703 handoff 1.3857 3.9083 solid black
+edge final_9 audit_9 4 0.95829 3.0441 0.89717 2.9299 0.82215 2.7897 0.7535 2.6614 solid black
+edge final_9 sink 4 1.147 3.0365 1.2362 2.6987 1.3993 2.0805 1.5065 1.6744 handoff 1.7107 2.2778 solid black
+edge audit_9 sink 4 0.78985 2.045 0.92117 1.9224 1.088 1.7665 1.237 1.6273 solid purple
+edge sink "quoted end" 4 1.6111 1.0113 1.6111 0.90591 1.6111 0.77919 1.6111 0.66027 solid purple
+edge "say \"go\"" sink 4 2.5901 2.0252 2.4279 1.9013 2.2271 1.748 2.0496 1.6125 solid purple
+stop

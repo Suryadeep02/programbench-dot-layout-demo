@@ -1,0 +1,11 @@
+graph 1 2.1111 3.9806
+node "beta two" 1.1389 3.7306 0.88635 0.5 "beta two" solid box blue blue
+node "gamma three" 1.1389 2.7167 1.2318 0.5 "gamma three" solid box blue blue
+node final_5 1.1389 1.4833 1.0664 0.5 final_5 solid ellipse gray30 gray30
+node audit_5 0.55559 0.25 1.1112 0.5 audit_5 solid ellipse gray30 gray30
+node sink 1.7361 0.25 0.75 0.5 sink solid box gray30 gray30
+edge "beta two" "gamma three" 4 1.1389 3.478 1.1389 3.3726 1.1389 3.2459 1.1389 3.1269 solid black
+edge "gamma three" final_5 4 1.1389 2.4646 1.1389 2.3022 1.1389 2.0832 1.1389 1.8947 handoff 1.4413 2.1 solid black
+edge final_5 audit_5 4 1.0265 1.237 0.94467 1.068 0.83219 0.83553 0.73768 0.6402 solid black
+edge final_5 sink 4 1.2541 1.237 1.3373 1.0691 1.4515 0.83852 1.5479 0.64398 handoff 1.7934 0.86667 solid black
+stop

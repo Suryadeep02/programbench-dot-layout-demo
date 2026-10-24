@@ -1,0 +1,12 @@
+graph 1 2.9293 3.5417
+node "alpha one" 0.48633 3.2917 0.97266 0.5 "alpha one" solid box blue blue
+node "beta two" 0.48633 2.2778 0.88635 0.5 "beta two" solid box blue blue
+node final_0 2.3197 2.2778 1.0664 0.5 final_0 solid ellipse gray30 gray30
+node audit_0 1.6113 1.2639 1.1112 0.5 audit_0 solid ellipse gray30 gray30
+node sink 2.1391 0.25 0.75 0.5 sink solid box gray30 gray30
+edge "alpha one" "beta two" 4 0.48633 3.0391 0.48633 2.9337 0.48633 2.807 0.48633 2.688 solid black
+edge "beta two" final_0 4 0.93481 2.2778 1.1432 2.2778 1.3958 2.2778 1.6279 2.2778 handoff 1.358 2.4361 solid black
+edge final_0 audit_0 4 2.1554 2.0352 2.0696 1.9157 1.9626 1.7668 1.8663 1.6327 solid black
+edge final_0 sink 7 2.327 2.0234 2.3318 1.7711 2.331 1.3634 2.2919 1.0139 2.279 0.89855 2.2571 0.7746 2.2338 0.66136 handoff 2.627 1.2639 solid black
+edge audit_0 sink 4 1.7364 1.0163 1.7956 0.90578 1.8677 0.77094 1.9345 0.64611 solid purple
+stop

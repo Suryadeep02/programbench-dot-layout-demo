@@ -1,0 +1,12 @@
+graph 1 1.952 4.775
+node "delta four" 1.3473 4.525 0.97266 0.5 "delta four" solid box blue blue
+node "alpha one" 1.3473 3.5111 0.97266 0.5 "alpha one" solid box blue blue
+node final_3 1.3473 2.2778 1.0664 0.5 final_3 solid ellipse gray30 gray30
+node audit_3 0.55559 1.2639 1.1112 0.5 audit_3 solid ellipse gray30 gray30
+node sink 1.0834 0.25 0.75 0.5 sink solid box gray30 gray30
+edge "delta four" "alpha one" 4 1.3473 4.2724 1.3473 4.167 1.3473 4.0403 1.3473 3.9214 solid black
+edge "alpha one" final_3 4 1.3473 3.259 1.3473 3.0966 1.3473 2.8777 1.3473 2.6891 handoff 1.6496 2.8944 solid black
+edge final_3 audit_3 4 1.1676 2.0401 1.0684 1.9166 0.9431 1.7605 0.83173 1.6217 solid black
+edge final_3 sink 7 1.3339 2.0233 1.318 1.7709 1.2871 1.3631 1.2361 1.0139 1.2194 0.89904 1.1963 0.77525 1.1731 0.662 handoff 1.5962 1.2639 solid black
+edge audit_3 sink 4 0.68067 1.0163 0.73982 0.90578 0.81199 0.77094 0.8788 0.64611 solid purple
+stop

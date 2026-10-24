@@ -1,0 +1,15 @@
+graph 1 4.5684 3.7611
+node "alpha one" 0.48633 3.5111 0.97266 0.5 "alpha one" solid box blue blue
+node "beta two" 0.48633 2.4972 0.88635 0.5 "beta two" solid box blue blue
+node final_8 2.3197 2.4972 1.0664 0.5 final_8 solid ellipse gray30 gray30
+node audit_8 2.2919 1.2639 1.1112 0.5 audit_8 solid ellipse gray30 gray30
+node sink 3.5141 1.2639 0.75 0.5 sink solid box gray30 gray30
+node "quoted end" 3.5141 0.25 2.1086 0.5 "quoted end" solid diamond gray30 gray30
+node "say \"go\"" 3.5697 2.4972 0.88322 0.5 "say \"go\"" solid box gray30 gray30
+edge "alpha one" "beta two" 4 0.48633 3.2585 0.48633 3.1531 0.48633 3.0264 0.48633 2.9075 solid black
+edge "beta two" final_8 4 0.93481 2.4972 1.1432 2.4972 1.3958 2.4972 1.6279 2.4972 handoff 1.358 2.6556 solid black
+edge final_8 audit_8 4 2.3142 2.2452 2.3104 2.0827 2.3054 1.8638 2.301 1.6752 solid black
+edge final_8 sink 7 2.4735 2.2574 2.5796 2.1093 2.7286 1.9157 2.8816 1.7639 2.9316 1.7143 2.9868 1.6652 3.043 1.6183 handoff 3.184 1.8806 solid black
+edge sink "quoted end" 4 3.5141 1.0113 3.5141 0.90591 3.5141 0.77919 3.5141 0.66027 solid black
+edge "say \"go\"" sink 4 3.5587 2.2452 3.5512 2.0827 3.5411 1.8638 3.5324 1.6752 solid black
+stop

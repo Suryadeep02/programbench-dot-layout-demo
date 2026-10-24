@@ -1,0 +1,16 @@
+graph 1 1.4498 7.4222
+node api 0.65278 6.6056 0.75 0.5 api solid box black lightgrey
+node queue 0.65278 5.6056 0.75 0.5 queue solid box black lightgrey
+node worker 0.65278 4.4278 0.77289 0.5 worker solid box black lightgrey
+node validate 0.65278 3.4278 0.83765 0.5 validate solid box black lightgrey
+node result 1.0556 0.25 0.75 0.5 result solid box black lightgrey
+node check 0.65278 2.25 0.75 0.5 check solid box black lightgrey
+node approve 0.65278 1.25 0.84847 0.5 approve solid box black lightgrey
+edge api queue 4 0.65278 6.3513 0.65278 6.2501 0.65278 6.1295 0.65278 6.0158 solid black
+edge queue worker 4 0.65278 5.2444 0.65278 5.2167 0.65278 5.1889 0.65278 5.1611 solid black
+edge worker validate 4 0.65278 4.1736 0.65278 4.0723 0.65278 3.9518 0.65278 3.838 solid black
+edge validate result 7 1.0704 3.1747 1.1429 3.1131 1.2084 3.04 1.25 2.9556 1.6179 2.2095 1.3819 1.2035 1.2028 0.65705 solid black
+edge validate check 4 0.65278 3.1756 0.65278 3.1549 0.65278 3.1333 0.65278 3.111 solid black
+edge check approve 4 0.65278 1.9958 0.65278 1.8945 0.65278 1.774 0.65278 1.6602 solid black
+edge approve result 4 0.79661 0.88892 0.82892 0.81094 0.86339 0.72774 0.89628 0.64834 solid black
+stop
