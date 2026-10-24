@@ -1,0 +1,26 @@
+graph 1 3.2639 9.6583
+node request 1.2083 0.91806 0.90221 0.70278 "{<raw> raw|<ok> accepted}" rounded record black lightgrey
+node parse 1.2083 2.0333 0.75 0.5 parse rounded box black lightgrey
+node schema 0.625 3.5833 0.80527 0.5 schema rounded box black lightgrey
+node policy 2 3.5833 0.75 0.5 policy rounded box black lightgrey
+node audit 0.97222 4.5972 0.75 0.5 audit rounded box black lightgrey
+node queue 0.97222 6.1472 0.75 0.5 queue rounded box black lightgrey
+node worker 0.97222 7.1611 0.77289 0.5 worker rounded box black lightgrey
+node store 0.97222 8.175 0.75 0.5 store rounded box black lightgrey
+node notify 0.97222 9.4083 0.75 0.5 notify rounded box black lightgrey
+node metrics 2.5139 0.91806 0.79454 0.5 metrics rounded box black lightgrey
+node log 2.5139 2.0333 0.75 0.5 log rounded box black lightgrey
+edge request parse 7 1.6733 0.74583 1.9061 0.74583 1.7247 1.046 1.6594 1.2694 1.6213 1.4001 1.5546 1.5312 1.484 1.6463 solid black
+edge parse schema 7 0.7693 2.3944 0.73452 2.4377 0.70397 2.4842 0.68084 2.5333 0.6527 2.5931 0.63147 2.657 0.61576 2.7227 structure 1.021 2.65 solid black
+edge parse policy 4 1.332 2.2851 1.4579 2.5272 1.6551 2.9062 1.8026 3.1898 permission 2.0071 2.65 solid black
+edge schema policy 4 1.0332 3.5833 1.1765 3.5833 1.3198 3.5833 1.4631 3.5833 solid gray60
+edge schema audit 4 0.70905 3.8359 0.74744 3.9449 0.79387 4.0768 0.83697 4.1992 solid black
+edge policy audit 7 1.7267 3.836 1.6398 3.9136 1.544 4.001 1.4583 4.0833 1.4102 4.1296 1.3603 4.1791 1.3115 4.2283 solid black
+edge audit queue 4 0.97222 4.9583 0.97222 5.0564 0.97222 5.1678 0.97222 5.2819 commit 1.2693 5.2139 solid black
+edge queue worker 4 0.97222 6.3998 0.97222 6.5052 0.97222 6.6319 0.97222 6.7508 solid black
+edge worker policy 7 1.1826 6.9067 1.2938 6.767 1.4228 6.5824 1.5 6.3972 1.8375 5.5876 1.9474 4.5535 1.983 3.9962 dashed gray50
+edge worker store 4 0.97222 7.4137 0.97222 7.5191 0.97222 7.6458 0.97222 7.7647 solid black
+edge worker metrics 10 1.295 6.9059 1.3937 6.8296 1.5013 6.7436 1.5972 6.6611 2.2533 6.0967 2.275 5.7816 2.5417 4.9583 2.7899 4.192 3.0753 3.3117 3.1133 2.5541 solid black
+edge store notify 4 0.97222 8.4271 0.97222 8.5895 0.97222 8.8084 0.97222 8.997 complete 1.3285 8.7917 solid black
+edge metrics log 4 2.5139 1.1733 2.5139 1.3042 2.5139 1.4695 2.5139 1.6191 solid black
+stop

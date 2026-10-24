@@ -1,0 +1,7 @@
+graph 1 7.1972 0.93365
+node source 1.0137 0.6767 2.0275 0.51389 "{<in> ingest|<mid> inspect|<out> emit}" solid record black lightgrey
+node transform 4.2374 0.44059 2.3181 0.51389 "{<in> receive|<mid> change|<out> release}" solid record black lightgrey
+node sink 6.5538 0.44059 1.2869 0.51389 "{<in> store|<out> notify}" solid record black lightgrey
+edge source:"out:s" transform:"mid:w" 4 1.7436 0.41559 1.7436 -0.47442 2.7951 0.34183 3.7054 0.43377 flow_3 2.5529 0.31658 solid black
+edge transform:out sink:in 4 5.3965 0.44198 5.5606 0.44198 5.6363 0.44198 5.7507 0.44198 solid black
+stop

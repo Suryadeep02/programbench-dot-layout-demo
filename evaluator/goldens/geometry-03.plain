@@ -1,0 +1,7 @@
+graph 1 1.3999 3.4478
+node input 0.69994 2.8211 1.3999 1.2533 "first\nsecond" solid diamond black lightgrey
+node worker 0.69994 1.3472 0.81628 0.5 work_3 solid box black lightgrey
+node output 0.69994 0.25 0.828 0.5 done solid ellipse black lightgrey
+edge input worker 4 0.69994 2.1855 0.69994 2.0402 0.69994 1.8893 0.69994 1.757 solid black
+edge worker output 4 0.69994 1.0907 0.69994 0.96486 0.69994 0.80796 0.69994 0.66475 solid black
+stop

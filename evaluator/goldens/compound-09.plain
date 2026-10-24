@@ -1,0 +1,28 @@
+graph 1 12.682 3.8117
+node request 0.93018 2.3812 1.4159 0.51389 "{<raw> raw|<ok> accepted}" rounded record black lightgrey
+node parse 2.527 2.3812 0.75 0.5 parse rounded box black lightgrey
+node schema 4.658 2.8395 0.80527 0.5 schema rounded box black lightgrey
+node policy 4.658 1.9367 0.75 0.5 policy rounded box black lightgrey
+node audit 5.9495 2.2145 0.75 0.5 audit rounded box black lightgrey
+node queue 7.7936 2.5062 0.75 0.5 queue rounded box black lightgrey
+node worker 9.0689 2.5062 0.77289 0.5 worker rounded box black lightgrey
+node store 10.344 2.5062 0.75 0.5 store rounded box black lightgrey
+node notify 12.307 2.5062 0.75 0.5 notify rounded box black lightgrey
+node reject 7.7936 1.6034 0.75 0.5 reject rounded box black lightgrey
+node metrics 0.93018 1.1867 0.79454 0.5 metrics rounded box black lightgrey
+node log 2.527 1.1867 0.75 0.5 log rounded box black lightgrey
+edge request:ok parse 4 1.6381 2.3826 1.7517 2.3826 1.8736 2.3825 1.9892 2.3823 solid black
+edge parse schema 4 3.0131 2.4841 3.3344 2.5541 3.7607 2.647 4.0969 2.7203 structure 3.5787 2.8079 solid black
+edge parse policy 7 2.9051 2.1523 2.9839 2.112 3.0687 2.0751 3.152 2.0506 3.466 1.9583 3.8323 1.9293 4.1234 1.9236 permission 3.5787 2.1673 solid black
+edge schema audit 4 5.0648 2.6452 5.1792 2.5886 5.3058 2.526 5.4262 2.4665 solid black
+edge policy audit 4 5.0374 2.0171 5.1553 2.043 5.2883 2.0722 5.4152 2.1001 solid black
+edge audit queue 4 6.4356 2.2903 6.6871 2.3307 6.9972 2.3805 7.2561 2.4221 commit 6.8716 2.5202 solid black
+edge audit reject 7 6.3305 2.0702 6.4106 2.0399 6.4951 2.0088 6.5745 1.9812 6.7995 1.903 7.0506 1.8232 7.2651 1.7572 invalid 6.8716 2.0979 solid red
+edge queue worker 4 8.175 2.5062 8.2825 2.5062 8.4023 2.5062 8.518 2.5062 solid black
+edge worker policy 7 8.9724 2.2512 8.8528 1.9294 8.5974 1.3901 8.1686 1.159 7.193 0.63303 5.881 1.2163 5.1739 1.6193 dashed gray50
+edge worker worker 7 8.9639 2.7608 8.9246 2.9579 8.9596 3.159 9.0689 3.159 9.1484 3.159 9.1886 3.0528 9.1895 2.9192 retry 9.0689 3.2756 solid orange
+edge worker store 4 9.4571 2.5062 9.5677 2.5062 9.6907 2.5062 9.8087 2.5062 solid black
+edge worker metrics 10 9.009 2.2554 8.9226 1.8682 8.6949 1.1396 8.1686 0.85341 5.0929 -0.81917 3.8666 0.43688 2.152 0.7423 2.0912 0.75313 2.0295 0.7668 1.9677 0.78257 solid black
+edge store notify 4 10.722 2.5062 11.018 2.5062 11.439 2.5062 11.771 2.5062 complete 11.326 2.6229 solid black
+edge metrics log 4 1.3319 1.1867 1.5301 1.1867 1.774 1.1867 1.9887 1.1867 solid black
+stop

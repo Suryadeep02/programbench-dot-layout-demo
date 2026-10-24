@@ -1,0 +1,10 @@
+graph 1 6.546 0.81944
+node start 6.171 0.25 0.75 0.5 start solid box black lightgrey
+node load 4.2682 0.56944 0.75 0.5 load solid box black lightgrey
+node validate 2.3216 0.56944 0.83765 0.5 validate solid box black lightgrey
+node end 0.375 0.25 0.75 0.5 end solid box black lightgrey
+edge start load 4 5.7911 0.31235 5.5098 0.36028 5.1174 0.42713 4.8033 0.48065 solid black
+edge start end 10 5.7901 0.23276 5.4836 0.21927 5.035 0.20163 4.6432 0.19444 3.4254 0.17211 3.1205 0.17211 1.9028 0.19444 1.5737 0.20048 1.2046 0.21389 0.91327 0.22602 solid black
+edge load validate 4 3.8889 0.56944 3.6111 0.56944 3.2238 0.56944 2.9054 0.56944 solid black
+edge validate end 4 1.8961 0.50092 1.6073 0.45283 1.2188 0.38817 0.90863 0.33653 solid black
+stop

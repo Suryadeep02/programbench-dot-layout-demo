@@ -1,0 +1,24 @@
+graph 1 12.682 2.6443
+node request 0.93018 1.3387 1.4159 0.51389 "{<raw> raw|<ok> accepted}" rounded record black lightgrey
+node parse 2.527 1.3387 0.75 0.5 parse rounded box black lightgrey
+node schema 4.658 1.8248 0.80527 0.5 schema rounded box black lightgrey
+node policy 4.658 0.7137 0.75 0.5 policy rounded box black lightgrey
+node audit 5.9495 1.0193 0.75 0.5 audit rounded box black lightgrey
+node queue 7.7936 1.4359 0.75 0.5 queue rounded box black lightgrey
+node worker 9.0689 1.4359 0.77289 0.5 worker rounded box black lightgrey
+node store 10.344 1.4359 0.75 0.5 store rounded box black lightgrey
+node notify 12.307 1.4359 0.75 0.5 notify rounded box black lightgrey
+node reject 7.7936 0.63036 0.75 0.5 reject rounded box black lightgrey
+edge request parse 4 1.6381 1.3401 1.7517 1.3401 1.8736 1.34 1.9892 1.3398 solid black
+edge parse schema 4 3.0131 1.4478 3.3344 1.5221 3.7607 1.6206 4.0969 1.6983 structure 3.5787 1.7842 solid black
+edge parse policy 4 2.9073 1.2298 3.2455 1.1293 3.7513 0.97901 4.1299 0.86649 permission 3.5787 1.2707 solid black
+edge schema policy 4 4.658 1.571 4.658 1.4238 4.658 1.2766 4.658 1.1295 solid gray60
+edge schema audit 4 5.0648 1.5743 5.1817 1.4998 5.3114 1.4172 5.4341 1.3389 solid black
+edge policy audit 4 5.0374 0.80208 5.1566 0.8309 5.2913 0.86346 5.4194 0.89444 solid black
+edge audit queue 4 6.4356 1.1276 6.6885 1.1856 7.0005 1.2572 7.2602 1.3167 commit 6.8716 1.4059 solid black
+edge audit reject 7 6.3302 0.82001 6.4089 0.7847 6.4929 0.75227 6.5745 0.73036 6.7943 0.67139 7.044 0.64443 7.2589 0.63294 invalid 6.8716 0.84703 solid red
+edge queue worker 4 8.175 1.4359 8.2825 1.4359 8.4023 1.4359 8.518 1.4359 solid black
+edge worker policy 7 8.9534 1.181 8.8215 0.88925 8.5608 0.4263 8.1686 0.22759 7.1962 -0.26504 5.8873 0.16143 5.1787 0.46772 dashed gray50
+edge worker store 4 9.4571 1.4359 9.5677 1.4359 9.6907 1.4359 9.8087 1.4359 solid black
+edge store notify 4 10.722 1.4359 11.018 1.4359 11.439 1.4359 11.771 1.4359 complete 11.326 1.5526 solid black
+stop

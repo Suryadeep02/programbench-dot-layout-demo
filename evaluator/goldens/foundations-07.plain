@@ -1,0 +1,7 @@
+graph 1 1.5658 2.5
+node "left input" 0.78291 2.25 1.2825 0.5 "left input" solid ellipse black lightgrey
+node "right output" 0.78291 1.25 1.5658 0.5 "right output" solid ellipse black lightgrey
+node sink 0.78291 0.25 0.75374 0.5 sink solid ellipse black lightgrey
+edge "left input" "right output" 4 0.78291 1.9958 0.78291 1.8945 0.78291 1.774 0.78291 1.6602 solid black
+edge "right output" sink 4 0.78291 0.99579 0.78291 0.89454 0.78291 0.77398 0.78291 0.66022 solid black
+stop

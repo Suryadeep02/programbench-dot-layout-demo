@@ -1,0 +1,12 @@
+graph 1 1.75 4.0139
+node b 0.375 2.7639 0.75 0.5 b solid box black lightgrey
+node c 1.375 2.7639 0.75 0.5 c solid box black lightgrey
+node a 0.875 3.7639 0.75 0.5 a solid box black lightgrey
+node d 0.875 1.25 0.75 0.5 d solid box black lightgrey
+node e 0.875 0.25 0.75 0.5 e solid box black lightgrey
+edge b d 4 0.45533 2.5112 0.53333 2.2794 0.65305 1.9236 0.74468 1.6512 solid black
+edge c d 4 1.2947 2.5112 1.2167 2.2794 1.097 1.9236 1.0053 1.6512 solid black
+edge a b 4 0.7514 3.5097 0.69631 3.4025 0.63009 3.2738 0.56866 3.1543 solid black
+edge a c 4 0.9986 3.5097 1.0537 3.4025 1.1199 3.2738 1.1813 3.1543 solid black
+edge d e 4 0.875 0.99579 0.875 0.89454 0.875 0.77398 0.875 0.66022 solid black
+stop

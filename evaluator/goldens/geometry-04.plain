@@ -1,0 +1,7 @@
+graph 1 0.828 2.9089
+node input 0.414 2.6489 0.55 0.52 T4 solid plaintext black lightgrey
+node worker 0.414 1.4444 0.81628 0.5 work_4 solid box black lightgrey
+node output 0.414 0.25 0.828 0.5 done solid ellipse black lightgrey
+edge input worker 4 0.414 2.3912 0.414 2.2371 0.414 2.0344 0.414 1.8573 solid black
+edge worker output 4 0.414 1.1888 0.414 1.0371 0.414 0.83774 0.414 0.66298 solid black
+stop

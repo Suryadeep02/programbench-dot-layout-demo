@@ -1,0 +1,7 @@
+graph 1 0.97 3.5811
+node input 0.485 3.0961 0.97 0.97 T2 solid circle black lightgrey
+node worker 0.485 1.5556 0.81628 0.5 work_2 solid box black lightgrey
+node output 0.485 0.25 0.828 0.5 done solid ellipse black lightgrey
+edge input worker 4 0.485 2.6077 0.485 2.4026 0.485 2.1653 0.485 1.9694 solid black
+edge worker output 4 0.485 1.3013 0.485 1.1211 0.485 0.87033 0.485 0.66052 solid black
+stop

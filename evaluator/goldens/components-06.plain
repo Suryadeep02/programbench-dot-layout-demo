@@ -1,0 +1,20 @@
+graph 1 5.6099 2.7472
+node a 0.375 2.4972 0.75 0.5 a solid ellipse black lightgrey
+node b 0.375 1.2639 0.75 0.5 b solid ellipse black lightgrey
+node c 0.375 0.25 0.75 0.5 c solid ellipse black lightgrey
+node x 1.375 2.4972 0.75 0.5 x solid ellipse black lightgrey
+node y 1.375 1.2639 0.75 0.5 y solid ellipse black lightgrey
+node lonely 2.4861 2.4972 0.97706 0.5 lonely solid ellipse black lightgrey
+node p 3.5972 2.4972 0.75 0.5 p solid ellipse black lightgrey
+node q 2.9583 1.2639 0.75 0.5 q solid ellipse black lightgrey
+node r 3.4444 0.25 0.75 0.5 r solid ellipse black lightgrey
+node "separate 6" 4.9167 2.4972 1.3864 0.5 "separate 6" solid ellipse black lightgrey
+node orphan_6 4.9167 1.2639 1.3197 0.5 orphan_6 solid ellipse black lightgrey
+edge a b 4 0.375 2.2452 0.375 2.0352 0.375 1.7306 0.375 1.5196 solid black
+edge b c 4 0.375 1.0113 0.375 0.85625 0.375 0.655 0.375 0.5004 solid black
+edge x y 4 1.375 2.2452 1.375 2.0352 1.375 1.7306 1.375 1.5196 solid black
+edge p q 4 3.4771 2.2566 3.3628 2.041 3.192 1.7187 3.078 1.5035 solid black
+edge q r 4 3.0711 1.0213 3.1496 0.86198 3.2539 0.6504 3.3323 0.49136 solid black
+edge r p 4 3.4611 0.50534 3.4904 0.93205 3.5512 1.8147 3.5806 2.2416 solid black
+edge "separate 6" orphan_6 4 4.9167 2.2452 4.9167 2.0352 4.9167 1.7306 4.9167 1.5196 link 5.0679 1.8806 solid black
+stop

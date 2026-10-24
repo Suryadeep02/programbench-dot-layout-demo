@@ -1,0 +1,22 @@
+graph 1 2.6368 9.6583
+node request 1.7639 0.91806 0.90221 0.70278 "{<raw> raw|<ok> accepted}" rounded record black lightgrey
+node parse 1.7639 2.0333 0.75 0.5 parse rounded box black lightgrey
+node schema 0.625 3.5833 0.80527 0.5 schema rounded box black lightgrey
+node policy 1.8056 3.5833 0.75 0.5 policy rounded box black lightgrey
+node audit 0.94444 4.5972 0.75 0.5 audit rounded box black lightgrey
+node queue 0.94444 6.1472 0.75 0.5 queue rounded box black lightgrey
+node worker 0.94444 7.1611 0.77289 0.5 worker rounded box black lightgrey
+node store 0.94444 8.175 0.75 0.5 store rounded box black lightgrey
+node notify 0.94444 9.4083 0.75 0.5 notify rounded box black lightgrey
+edge request:ok parse 4 2.2289 0.74583 2.6184 0.74583 2.31 1.2781 2.0433 1.6544 solid black
+edge parse schema 7 1.2084 2.3377 1.1314 2.395 1.0588 2.4603 1.0003 2.5333 0.95073 2.5952 0.90739 2.6641 0.86954 2.7362 structure 1.3404 2.65 solid black
+edge parse policy 4 1.7704 2.2851 1.7769 2.5216 1.7869 2.8889 1.7946 3.1702 permission 2.2101 2.65 solid black
+edge schema audit 4 0.70233 3.8359 0.73725 3.9437 0.77941 4.0739 0.81869 4.1951 solid black
+edge policy audit 7 1.5818 3.8376 1.5105 3.9153 1.4318 4.0024 1.3611 4.0833 1.3224 4.1277 1.2822 4.1746 1.2428 4.2213 solid black
+edge audit queue 4 0.94444 4.9583 0.94444 5.0564 0.94444 5.1678 0.94444 5.2819 commit 1.2415 5.2139 solid black
+edge queue worker 4 0.94444 6.3998 0.94444 6.5052 0.94444 6.6319 0.94444 6.7508 solid black
+edge worker policy 7 1.1893 6.9062 1.3127 6.7691 1.4519 6.5872 1.5278 6.3972 1.8496 5.5914 1.8586 4.5558 1.8339 3.9973 dashed gray50
+edge worker worker 7 1.3343 7.07 1.5433 7.0545 1.7337 7.0849 1.7337 7.1611 1.7337 7.2171 1.631 7.2484 1.4937 7.2549 retry 1.9172 7.1611 solid orange
+edge worker store 4 0.94444 7.4137 0.94444 7.5191 0.94444 7.6458 0.94444 7.7647 solid black
+edge store notify 4 0.94444 8.4271 0.94444 8.5895 0.94444 8.8084 0.94444 8.997 complete 1.3008 8.7917 solid black
+stop

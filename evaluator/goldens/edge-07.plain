@@ -1,0 +1,14 @@
+graph 1 2.4039 3.7611
+node a 1.375 3.5111 0.75 0.5 a solid box black lightgrey
+node b 0.375 2.4972 0.75 0.5 b solid box black lightgrey
+node c 1.375 2.4972 0.75 0.5 c solid box black lightgrey
+node d 1.375 1.4833 0.75 0.5 d solid box black lightgrey
+node e 1.375 0.25 0.75 0.5 e solid box black lightgrey
+edge a b 4 1.1329 3.2585 1.0122 3.1395 0.86389 2.9932 0.73055 2.8617 solid black
+edge a c 4 1.2934 3.2585 1.2822 3.1519 1.2788 3.0235 1.283 2.9034 solid black
+edge a d 10 1.5867 3.2594 1.6958 3.1206 1.8179 2.9359 1.875 2.7472 1.9394 2.5345 1.9394 2.4599 1.875 2.2472 1.8339 2.1116 1.7593 1.978 1.6801 1.8621 "path 7" 2.1636 2.4972 bold green4
+edge b d 4 0.61707 2.2446 0.73778 2.1256 0.88611 1.9793 1.0194 1.8478 solid black
+edge c a 4 1.4564 2.7476 1.4728 2.9022 1.4729 3.1035 1.4566 3.2585 dotted black
+edge c d 4 1.375 2.2446 1.375 2.1392 1.375 2.0125 1.375 1.8936 solid black
+edge d e 4 1.375 1.2313 1.375 1.0754 1.375 0.8675 1.375 0.68436 finish 1.5965 0.86667 solid black
+stop

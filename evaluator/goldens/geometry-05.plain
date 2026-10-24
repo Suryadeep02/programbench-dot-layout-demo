@@ -1,0 +1,7 @@
+graph 1 0.828 3.4117
+node input 0.414 3.0114 0.76 0.80056 "{<left> left|<right> right}" solid record black lightgrey
+node worker 0.414 1.5556 0.81628 0.5 work_5 solid box black lightgrey
+node output 0.414 0.25 0.828 0.5 done solid ellipse black lightgrey
+edge input worker 4 0.414 2.6148 0.414 2.4147 0.414 2.17 0.414 1.9677 solid black
+edge worker output 4 0.414 1.3013 0.414 1.1211 0.414 0.87033 0.414 0.66052 solid black
+stop

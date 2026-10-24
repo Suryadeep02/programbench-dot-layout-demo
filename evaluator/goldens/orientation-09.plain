@@ -1,0 +1,12 @@
+graph 1 4.7543 1.3056
+node start 4.3793 0.65278 0.75 0.5 start solid box black lightgrey
+node load 3.0299 1.0556 0.75 0.5 load solid box black lightgrey
+node validate 3.0299 0.25 0.83765 0.5 validate solid box black lightgrey
+node join 1.6806 0.65278 0.75 0.5 join solid box black lightgrey
+node end 0.375 0.65278 0.75 0.5 end solid box black lightgrey
+edge start load 4 4.0008 0.7639 3.8647 0.80538 3.7075 0.8533 3.5603 0.89815 solid black
+edge start validate 4 4.0008 0.54165 3.8789 0.5045 3.74 0.46217 3.6066 0.42151 solid black
+edge load join 4 2.6514 0.94443 2.5153 0.90295 2.3581 0.85503 2.2109 0.81018 solid black
+edge validate join 4 2.6051 0.37523 2.4799 0.41341 2.3406 0.45587 2.2093 0.49586 solid black
+edge join end 4 1.3039 0.65278 1.1812 0.65278 1.0416 0.65278 0.90908 0.65278 solid black
+stop

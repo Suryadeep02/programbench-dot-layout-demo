@@ -1,0 +1,14 @@
+graph 1 7.3002 1.4444
+node a 0.69319 0.25 0.75 0.5 a solid ellipse black lightgrey
+node b 2.8487 0.25 0.75 0.5 b solid ellipse black lightgrey
+node c 4.3975 0.25 0.75 0.5 c solid ellipse black lightgrey
+node x 5.6613 0.25 0.75 0.5 x solid ellipse black lightgrey
+node y 6.9252 0.25 0.75 0.5 y solid ellipse black lightgrey
+node "separate 7" 0.69319 1.1944 1.3864 0.5 "separate 7" solid ellipse black lightgrey
+node orphan_7 2.8487 1.1944 1.3197 0.5 orphan_7 solid ellipse black lightgrey
+edge a b 4 1.0728 0.25 1.4638 0.25 2.0798 0.25 2.4703 0.25 solid black
+edge b c 4 3.2269 0.25 3.466 0.25 3.7775 0.25 4.017 0.25 solid black
+edge c x 4 4.7755 0.25 4.9351 0.25 5.1219 0.25 5.2816 0.25 dashed black
+edge x y 4 6.0394 0.25 6.1989 0.25 6.3858 0.25 6.5455 0.25 solid black
+edge "separate 7" orphan_7 4 1.392 1.1944 1.6459 1.1944 1.933 1.1944 2.1838 1.1944 link 1.7876 1.3111 solid black
+stop
