@@ -1,0 +1,10 @@
+digraph subgraph_09 {
+node [shape=box,color=gray30];
+subgraph stage_a { node [color=blue]; "beta two"; "gamma three"; "beta two" -> "gamma three"; }
+subgraph stage_b { node [shape=ellipse]; final_9; audit_9; final_9 -> audit_9; }
+"gamma three" -> final_9 -> sink [label=handoff];
+edge [color=purple]; audit_9 -> sink;
+"quoted end" [shape=diamond]; sink -> "quoted end";
+"say \"go\"" -> sink;
+// A comment between semantic statements must be ignored.
+}

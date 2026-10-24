@@ -1,0 +1,3 @@
+digraph foundation_07 {
+"left input" -> "right output"; "right output" -> sink;
+}

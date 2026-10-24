@@ -1,0 +1,6 @@
+digraph geometry_09 {
+graph [nodesep=0.4,ranksep=0.6];
+input [shape=plaintext,label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0"><TR><TD>stage</TD><TD>9</TD></TR><TR><TD COLSPAN="2">verified</TD></TR></TABLE>>,width=0.76,height=0.34,fixedsize=false,margin=0.08,fontname="Courier",fontsize=14];
+worker [shape=box,label=work_9]; output [shape=ellipse,label=done];
+input -> worker; worker -> output;
+}

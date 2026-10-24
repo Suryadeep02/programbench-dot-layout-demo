@@ -1,0 +1,5 @@
+digraph orient_03 {
+graph [rankdir=TB,nodesep=0.71,ranksep=0.55];
+node [shape=box];
+start -> load; start -> validate; load -> join; validate -> join; join -> end;
+}

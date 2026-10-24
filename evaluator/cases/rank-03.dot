@@ -1,0 +1,5 @@
+digraph rank_03 {
+node [shape=box];
+subgraph { rank=same; b; c; }
+a -> b; b -> d; a -> c; c -> d [weight=8]; d -> e; b -> e;
+}

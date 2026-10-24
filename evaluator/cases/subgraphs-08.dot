@@ -1,0 +1,9 @@
+digraph subgraph_08 {
+node [shape=box,color=gray30];
+subgraph stage_a { node [color=blue]; "alpha one"; "beta two"; "alpha one" -> "beta two"; }
+subgraph stage_b { node [shape=ellipse]; final_8; audit_8; final_8 -> audit_8; }
+"beta two" -> final_8 -> sink [label=handoff];
+subgraph { rank=same; "beta two"; final_8; }
+"quoted end" [shape=diamond]; sink -> "quoted end";
+"say \"go\"" -> sink;
+}

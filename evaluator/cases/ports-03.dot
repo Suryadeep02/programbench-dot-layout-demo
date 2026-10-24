@@ -1,0 +1,8 @@
+digraph ports_03 {
+source [shape=record,label="{<in> ingest|<mid> inspect|<out> emit}"];
+transform [shape=record,label="{<in> receive|<mid> change|<out> release}"];
+sink [shape=record,label="{<in> store|<out> notify}"];
+source:out:s -> transform:mid:w [label=flow_3];
+transform:out -> sink:in;
+graph [rankdir=LR];
+}

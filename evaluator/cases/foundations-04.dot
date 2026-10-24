@@ -1,0 +1,3 @@
+digraph foundation_04 {
+a -> b; a -> c;
+}

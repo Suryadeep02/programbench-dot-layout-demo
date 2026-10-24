@@ -1,0 +1,3 @@
+digraph foundation_08 {
+node [shape=box]; a -> b; a -> c; c -> d;
+}

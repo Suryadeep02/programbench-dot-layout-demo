@@ -1,0 +1,6 @@
+digraph geometry_01 {
+graph [nodesep=0.4,ranksep=0.7];
+input [shape=ellipse,label="task 1: verify",width=0.76,height=0.52,fixedsize=false,margin=0.08];
+worker [shape=box,label=work_1]; output [shape=ellipse,label=done];
+input -> worker; worker -> output;
+}

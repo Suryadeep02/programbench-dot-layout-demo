@@ -1,0 +1,9 @@
+digraph edge_09 {
+node [shape=box];
+a -> b;
+a -> c;
+b -> d;
+c -> d;
+a -> d [label="path 9",color=black,style=dashed,minlen=1];
+d -> e [label=finish,arrowhead=diamond];
+}

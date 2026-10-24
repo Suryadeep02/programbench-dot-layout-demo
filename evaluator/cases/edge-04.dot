@@ -1,0 +1,10 @@
+digraph edge_04 {
+node [shape=box];
+a -> b;
+a -> c;
+b -> d;
+c -> d;
+a -> d [label="path 4",color=black,style=solid,minlen=2];
+b -> d [label="retry 4",color=gray40,dir=both,arrowtail=vee];
+c -> a [constraint=false,style=dotted,dir=none];
+}

@@ -1,0 +1,9 @@
+digraph subgraph_06 {
+node [shape=box,color=gray30];
+subgraph stage_a { node [color=blue]; "gamma three"; "delta four"; "gamma three" -> "delta four"; }
+subgraph stage_b { node [shape=ellipse]; final_6; audit_6; final_6 -> audit_6; }
+"delta four" -> final_6 -> sink [label=handoff];
+subgraph { rank=same; "delta four"; final_6; }
+edge [color=purple]; audit_6 -> sink;
+"quoted end" [shape=diamond]; sink -> "quoted end";
+}

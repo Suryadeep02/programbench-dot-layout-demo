@@ -1,0 +1,8 @@
+digraph edge_05 {
+node [shape=box];
+a -> b;
+a -> c;
+b -> d;
+c -> d;
+a -> d [label="path 5",color=red,style=dashed,minlen=3];
+}

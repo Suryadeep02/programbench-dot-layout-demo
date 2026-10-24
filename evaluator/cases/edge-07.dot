@@ -1,0 +1,10 @@
+digraph edge_07 {
+node [shape=box];
+a -> b;
+a -> c;
+b -> d;
+c -> d;
+a -> d [label="path 7",color=green4,style=bold,minlen=2];
+c -> a [constraint=false,style=dotted,dir=none];
+d -> e [label=finish,arrowhead=diamond];
+}

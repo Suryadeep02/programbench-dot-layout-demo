@@ -1,0 +1,3 @@
+strict digraph foundation_06 {
+a -> b; b -> c; a -> c;
+}

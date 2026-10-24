@@ -1,0 +1,13 @@
+digraph cycle_09 {
+node [shape=circle,width=0.45,fixedsize=true];
+n0 -> n1;
+n1 -> n2;
+n2 -> n3;
+n3 -> n4;
+n4 -> n5;
+n5 -> n6;
+n6 -> n0;
+n6 -> n1 [constraint=false,color=red];
+n0 -> n1 [label=alternate,style=dashed];
+n0 -> extra; extra -> n5;
+}

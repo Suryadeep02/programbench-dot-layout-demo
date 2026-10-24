@@ -1,0 +1,10 @@
+digraph ports_08 {
+source [shape=record,label="{<in> ingest|<mid> inspect|<out> emit}"];
+transform [shape=record,label="{<in> receive|<mid> change|<out> release}"];
+sink [shape=record,label="{<in> store|<out> notify}"];
+source:in:e -> transform:in:w [label=flow_8];
+transform:out -> sink:in;
+source:mid -> sink:in [constraint=false,color=blue];
+transform:mid -> transform:in [label=retry];
+source -> sink [tailport="out:e",headport="in:w",style=dashed];
+}

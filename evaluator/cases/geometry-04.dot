@@ -1,0 +1,6 @@
+digraph geometry_04 {
+graph [nodesep=0.3,ranksep=0.7];
+input [shape=plaintext,label="T4",width=0.55,height=0.52,fixedsize=true,margin=0.08];
+worker [shape=box,label=work_4]; output [shape=ellipse,label=done];
+input -> worker; worker -> output;
+}

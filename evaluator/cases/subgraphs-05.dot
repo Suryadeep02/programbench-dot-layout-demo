@@ -1,0 +1,6 @@
+digraph subgraph_05 {
+node [shape=box,color=gray30];
+subgraph stage_a { node [color=blue]; "beta two"; "gamma three"; "beta two" -> "gamma three"; }
+subgraph stage_b { node [shape=ellipse]; final_5; audit_5; final_5 -> audit_5; }
+"gamma three" -> final_5 -> sink [label=handoff];
+}

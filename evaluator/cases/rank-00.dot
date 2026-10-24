@@ -1,0 +1,4 @@
+digraph rank_00 {
+node [shape=box];
+a -> b; a -> c; b -> d; c -> d; d -> e;
+}

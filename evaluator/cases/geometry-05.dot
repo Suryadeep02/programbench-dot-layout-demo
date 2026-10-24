@@ -1,0 +1,6 @@
+digraph geometry_05 {
+graph [nodesep=0.4,ranksep=0.8];
+input [shape=record,label="{<left> left|<right> right}",width=0.76,height=0.70,fixedsize=false,margin=0.08,fontname="Courier",fontsize=14];
+worker [shape=box,label=work_5]; output [shape=ellipse,label=done];
+input -> worker; worker -> output;
+}
