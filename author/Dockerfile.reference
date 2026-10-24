@@ -1,0 +1,32 @@
+FROM gcc@sha256:9188ac751ca24431dc43dbd142a223c98ea74f01d2858e84d30ba342a0d67844 AS build
+
+COPY graphviz-14.0.4.tar.gz /tmp/graphviz-14.0.4.tar.gz
+RUN echo 'ddac5f15ad1b2ad6d715cc64d6d0e6a366310c09c2c3a11284dafd1630e353b6  /tmp/graphviz-14.0.4.tar.gz' | sha256sum -c - && \
+    cd /tmp && tar -xzf graphviz-14.0.4.tar.gz
+WORKDIR /tmp/graphviz-14.0.4
+
+# The release tarball contains generated parser files. The static target embeds
+# Graphviz's layout and core renderer plugins in the executable.
+RUN LDFLAGS='-static' ./configure --enable-static --disable-shared --disable-ltdl \
+      --without-x --with-pangocairo=no --with-freetype2=no \
+      --with-libgd=no --with-expat=yes \
+      --disable-swig > /tmp/configure.log 2>&1 || \
+      { tail -n 120 /tmp/configure.log; exit 1; }
+RUN make -j4 > /tmp/make.log 2>&1 || \
+      { tail -n 120 /tmp/make.log; exit 1; }
+RUN rm cmd/dot/dot_static && \
+    make -C cmd/dot dot_static LDFLAGS='-all-static' > /tmp/static-link.log 2>&1 || \
+    { tail -n 100 /tmp/static-link.log; exit 1; }
+RUN test -x cmd/dot/dot_static && \
+    strip --strip-all cmd/dot/dot_static && \
+    { ldd cmd/dot/dot_static > /tmp/ldd.txt 2>&1 || true; } && \
+    ! readelf -l cmd/dot/dot_static | grep -q INTERP && \
+    grep -q 'not a dynamic executable' /tmp/ldd.txt && \
+    cmd/dot/dot_static -V > /tmp/version.txt 2>&1 && \
+    printf 'digraph { a -> b }\n' | cmd/dot/dot_static -Tplain > /tmp/smoke.txt
+
+FROM scratch AS export
+COPY --from=build /tmp/graphviz-14.0.4/cmd/dot/dot_static /dot
+COPY --from=build /tmp/ldd.txt /ldd.txt
+COPY --from=build /tmp/version.txt /version.txt
+COPY --from=build /tmp/smoke.txt /smoke.txt

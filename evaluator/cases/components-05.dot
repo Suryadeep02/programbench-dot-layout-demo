@@ -1,0 +1,6 @@
+graph component_05 {
+node [shape=ellipse];
+a -- b -- c;
+x -- y;
+"separate 5" -- orphan_5 [label=link];
+}

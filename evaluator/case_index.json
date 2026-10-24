@@ -1,0 +1,1466 @@
+[
+  {
+    "family": "foundations",
+    "format": "plain",
+    "id": "foundations-00",
+    "input_mode": "file",
+    "input_sha256": "dee396739a381164f605f5a914b224b14fc3d38a1f57ad1b145173969ee471d4",
+    "tags": [
+      "basic",
+      "topology"
+    ]
+  },
+  {
+    "family": "foundations",
+    "format": "plain",
+    "id": "foundations-01",
+    "input_mode": "stdin",
+    "input_sha256": "1a72fbd54924a1e9eb3a1cd35e9e32b1e25d09650cfc76f59408f30dcfa85b5c",
+    "tags": [
+      "basic",
+      "topology"
+    ]
+  },
+  {
+    "family": "foundations",
+    "format": "plain",
+    "id": "foundations-02",
+    "input_mode": "stdin",
+    "input_sha256": "4962636fd2556ef4b91706379102723b34213dbbb22393883cafd097e5e3e013",
+    "tags": [
+      "basic",
+      "topology"
+    ]
+  },
+  {
+    "family": "foundations",
+    "format": "plain",
+    "id": "foundations-03",
+    "input_mode": "stdin",
+    "input_sha256": "375984a435c4c8a348c2136e7ba4676a38f4ce04ba276111f62735cbc78f17ba",
+    "tags": [
+      "basic",
+      "topology"
+    ]
+  },
+  {
+    "family": "foundations",
+    "format": "plain",
+    "id": "foundations-04",
+    "input_mode": "file",
+    "input_sha256": "7c21d98ba029a822ef7d75ed1937fa421f5fec6952caa1689d1d9a4b4127c664",
+    "tags": [
+      "basic",
+      "topology"
+    ]
+  },
+  {
+    "family": "foundations",
+    "format": "plain",
+    "id": "foundations-05",
+    "input_mode": "stdin",
+    "input_sha256": "963957d38e82517ee63e7268f6effa3182796f1804ff322a20f0f61f7ff7fa24",
+    "tags": [
+      "basic",
+      "topology"
+    ]
+  },
+  {
+    "family": "foundations",
+    "format": "plain",
+    "id": "foundations-06",
+    "input_mode": "stdin",
+    "input_sha256": "f2cf09a78e2495014093ca9e0ea3d319646726a61ca68cdd3d2bd1f4c835c10e",
+    "tags": [
+      "basic",
+      "topology"
+    ]
+  },
+  {
+    "family": "foundations",
+    "format": "plain",
+    "id": "foundations-07",
+    "input_mode": "stdin",
+    "input_sha256": "c027f932f36a67e9f3e9b81bc1d3e193200b146930b6b7e430fe0f4778251d37",
+    "tags": [
+      "basic",
+      "topology"
+    ]
+  },
+  {
+    "family": "foundations",
+    "format": "plain",
+    "id": "foundations-08",
+    "input_mode": "file",
+    "input_sha256": "63280205661c82efd77e6e52a401d07bebaf50726e3fd279f674c1a4c39c0594",
+    "tags": [
+      "basic",
+      "topology"
+    ]
+  },
+  {
+    "family": "foundations",
+    "format": "plain",
+    "id": "foundations-09",
+    "input_mode": "stdin",
+    "input_sha256": "2b169f9f213c9cf87c7bfd5ddcdac5dde86353fd542df3cb4c61b423922f88ff",
+    "tags": [
+      "basic",
+      "topology"
+    ]
+  },
+  {
+    "family": "rank",
+    "format": "plain",
+    "id": "rank-00",
+    "input_mode": "file",
+    "input_sha256": "b28f4dca16f6c60ecb78c7608ea1aac150e380d94366d7918be0c6a6c3092a97",
+    "tags": [
+      "rank",
+      "constraints",
+      "dag"
+    ]
+  },
+  {
+    "family": "rank",
+    "format": "plain",
+    "id": "rank-01",
+    "input_mode": "stdin",
+    "input_sha256": "fad971b32b80062f7a17de8f0dd834cd0e4096c89c2561bfce2f7f4f7161f359",
+    "tags": [
+      "rank",
+      "constraints",
+      "dag"
+    ]
+  },
+  {
+    "family": "rank",
+    "format": "plain",
+    "id": "rank-02",
+    "input_mode": "stdin",
+    "input_sha256": "85708b7fc141fa8aaac8687e18286fc78ad9e11f7ba2658297c26204627f88b7",
+    "tags": [
+      "rank",
+      "constraints",
+      "dag"
+    ]
+  },
+  {
+    "family": "rank",
+    "format": "plain",
+    "id": "rank-03",
+    "input_mode": "stdin",
+    "input_sha256": "055b358476de320e8a3d0fffa534b36c88a124a287d03a43d36ded84f76041d2",
+    "tags": [
+      "rank",
+      "constraints",
+      "dag"
+    ]
+  },
+  {
+    "family": "rank",
+    "format": "plain",
+    "id": "rank-04",
+    "input_mode": "file",
+    "input_sha256": "492cef9745b194625b2fa39b8f7a7e5fcb408bd0938d957522687c97756c71dc",
+    "tags": [
+      "rank",
+      "constraints",
+      "dag"
+    ]
+  },
+  {
+    "family": "rank",
+    "format": "plain",
+    "id": "rank-05",
+    "input_mode": "stdin",
+    "input_sha256": "cb7dd18357e5760171a6b1a89d0c6d81d9bc4321e762b6f2d1f479f266820e29",
+    "tags": [
+      "rank",
+      "constraints",
+      "dag"
+    ]
+  },
+  {
+    "family": "rank",
+    "format": "plain",
+    "id": "rank-06",
+    "input_mode": "stdin",
+    "input_sha256": "995fdecaeccce5e313fac51d726d0a4dc9660dc15af53c1859e0487381d030fa",
+    "tags": [
+      "rank",
+      "constraints",
+      "dag"
+    ]
+  },
+  {
+    "family": "rank",
+    "format": "plain",
+    "id": "rank-07",
+    "input_mode": "stdin",
+    "input_sha256": "f40eaa23210edd6243e9a840b4d049ba5f66f7c988d97ac9d3a44d8e0dcba7a6",
+    "tags": [
+      "rank",
+      "constraints",
+      "dag"
+    ]
+  },
+  {
+    "family": "rank",
+    "format": "plain",
+    "id": "rank-08",
+    "input_mode": "file",
+    "input_sha256": "bfb9d51da808cc783a91501b16711a7139cac061c6992253a1475c6279f70b67",
+    "tags": [
+      "rank",
+      "constraints",
+      "dag"
+    ]
+  },
+  {
+    "family": "rank",
+    "format": "plain",
+    "id": "rank-09",
+    "input_mode": "stdin",
+    "input_sha256": "1dd1c08fdc0c7f6d9055bd11805952cc96a31391255cafcd8a2452702b85c664",
+    "tags": [
+      "rank",
+      "constraints",
+      "dag"
+    ]
+  },
+  {
+    "family": "crossing",
+    "format": "plain",
+    "id": "crossing-00",
+    "input_mode": "file",
+    "input_sha256": "eed604c6085d4a323940492bbf52a8824c14e72d59e38654da7bb4775f48e145",
+    "tags": [
+      "crossing",
+      "same-rank",
+      "ordering"
+    ]
+  },
+  {
+    "family": "crossing",
+    "format": "plain",
+    "id": "crossing-01",
+    "input_mode": "stdin",
+    "input_sha256": "be0d79825c436f8ab1a97f3dd458507caf1a441b00d012700fc4dae7411e9bbb",
+    "tags": [
+      "crossing",
+      "same-rank",
+      "group"
+    ]
+  },
+  {
+    "family": "crossing",
+    "format": "plain",
+    "id": "crossing-02",
+    "input_mode": "stdin",
+    "input_sha256": "d211fe129e1605942a0c4a2ec9e06ea2563ea16cd6af2f1bc07c5f1752bd428a",
+    "tags": [
+      "crossing",
+      "same-rank"
+    ]
+  },
+  {
+    "family": "crossing",
+    "format": "plain",
+    "id": "crossing-03",
+    "input_mode": "stdin",
+    "input_sha256": "0750b33b8719b4bd8111af0850f1499fe2f70a01c4cceee1c7e3cec4af693672",
+    "tags": [
+      "crossing",
+      "same-rank",
+      "ordering"
+    ]
+  },
+  {
+    "family": "crossing",
+    "format": "plain",
+    "id": "crossing-04",
+    "input_mode": "file",
+    "input_sha256": "c0c3ffeea98c54e310e3d2903d91ea8fc83d6e5e8640bc3f71fc4c0446af5cce",
+    "tags": [
+      "crossing",
+      "same-rank",
+      "group"
+    ]
+  },
+  {
+    "family": "crossing",
+    "format": "plain",
+    "id": "crossing-05",
+    "input_mode": "stdin",
+    "input_sha256": "3bd82659d2245377a5fe99cc22efe2e18dabd67ea3a028fe6635ec6ccf502d99",
+    "tags": [
+      "crossing",
+      "same-rank"
+    ]
+  },
+  {
+    "family": "crossing",
+    "format": "plain",
+    "id": "crossing-06",
+    "input_mode": "stdin",
+    "input_sha256": "e9e3e9844f7a1b3f63a86e203b725e3bc7b2ab91ea5fcde2b5d122b1776ff49d",
+    "tags": [
+      "crossing",
+      "same-rank",
+      "ordering",
+      "dense-crossing"
+    ]
+  },
+  {
+    "family": "crossing",
+    "format": "plain",
+    "id": "crossing-07",
+    "input_mode": "stdin",
+    "input_sha256": "d82fcd1f5bb04d54917abe0d570bbed99e16b109805a7913c3b47ab81b33d549",
+    "tags": [
+      "crossing",
+      "same-rank",
+      "group",
+      "dense-crossing"
+    ]
+  },
+  {
+    "family": "crossing",
+    "format": "plain",
+    "id": "crossing-08",
+    "input_mode": "file",
+    "input_sha256": "48e948499bf1aa01a3af91747ebaa4109ad6e0cffae4c970d9dafd80259fbdf4",
+    "tags": [
+      "crossing",
+      "same-rank",
+      "dense-crossing"
+    ]
+  },
+  {
+    "family": "crossing",
+    "format": "plain",
+    "id": "crossing-09",
+    "input_mode": "stdin",
+    "input_sha256": "ce3d63acc38d87958954ee8b62fd7e967ae1f6649ac554de334988ba49502930",
+    "tags": [
+      "crossing",
+      "same-rank",
+      "ordering",
+      "dense-crossing"
+    ]
+  },
+  {
+    "family": "orientation",
+    "format": "plain",
+    "id": "orientation-00",
+    "input_mode": "file",
+    "input_sha256": "43eb6a6bf691ac74c3b0e6d9049e0ea08532f18e575a1a9251fe298b4f7b4a76",
+    "tags": [
+      "orientation",
+      "spacing",
+      "routing"
+    ]
+  },
+  {
+    "family": "orientation",
+    "format": "plain",
+    "id": "orientation-01",
+    "input_mode": "stdin",
+    "input_sha256": "c1ae1523ae75baa446ca554be17345587fb9010dc7dd4703fb54d7eb6bea8031",
+    "tags": [
+      "orientation",
+      "spacing",
+      "routing"
+    ]
+  },
+  {
+    "family": "orientation",
+    "format": "plain",
+    "id": "orientation-02",
+    "input_mode": "stdin",
+    "input_sha256": "02810dd5ab3a793f39eab158949d1141ff7803a5aaf515b368bb7b61fe3ff650",
+    "tags": [
+      "orientation",
+      "spacing",
+      "routing"
+    ]
+  },
+  {
+    "family": "orientation",
+    "format": "plain",
+    "id": "orientation-03",
+    "input_mode": "stdin",
+    "input_sha256": "4dd65edebc936a70d3dd9cec88abf303c0de7cf8855ca1fb1c886f92eb856049",
+    "tags": [
+      "orientation",
+      "spacing",
+      "routing"
+    ]
+  },
+  {
+    "family": "orientation",
+    "format": "plain",
+    "id": "orientation-04",
+    "input_mode": "file",
+    "input_sha256": "b0cd40f961dffade4c4dff9f7d297ede1638631ae0ce456229082beffcfb44a3",
+    "tags": [
+      "orientation",
+      "spacing",
+      "routing"
+    ]
+  },
+  {
+    "family": "orientation",
+    "format": "plain",
+    "id": "orientation-05",
+    "input_mode": "stdin",
+    "input_sha256": "fa1bf4de22666eb0646646002d7bf5148461ebc862c864887ef109b62ed53cac",
+    "tags": [
+      "orientation",
+      "spacing",
+      "routing"
+    ]
+  },
+  {
+    "family": "orientation",
+    "format": "plain",
+    "id": "orientation-06",
+    "input_mode": "stdin",
+    "input_sha256": "9c620712022c0e7cb38cba2a0f4d606658d2b759fa37978813bcfb7c5483689c",
+    "tags": [
+      "orientation",
+      "spacing",
+      "routing"
+    ]
+  },
+  {
+    "family": "orientation",
+    "format": "plain",
+    "id": "orientation-07",
+    "input_mode": "stdin",
+    "input_sha256": "cfa7917a9938245d413909434239c97bc4274aa2d1ee83026664c05f1e2e41b3",
+    "tags": [
+      "orientation",
+      "spacing",
+      "routing"
+    ]
+  },
+  {
+    "family": "orientation",
+    "format": "plain",
+    "id": "orientation-08",
+    "input_mode": "file",
+    "input_sha256": "6cfddbc1574f1ea2ece96de0d8c6c48c5cfa62ad2143577110bdcd74a2d74e90",
+    "tags": [
+      "orientation",
+      "spacing",
+      "routing"
+    ]
+  },
+  {
+    "family": "orientation",
+    "format": "plain",
+    "id": "orientation-09",
+    "input_mode": "stdin",
+    "input_sha256": "155a8c04c077c423f20b008302dc2f2e4207314a8874fe14097f1f44734613e1",
+    "tags": [
+      "orientation",
+      "spacing",
+      "routing"
+    ]
+  },
+  {
+    "family": "geometry",
+    "format": "plain",
+    "id": "geometry-00",
+    "input_mode": "file",
+    "input_sha256": "a749156303edecd9921250b7d137ec16b8113ce2eeca505a484e7ba3609e0bb9",
+    "tags": [
+      "node-size",
+      "labels",
+      "shape"
+    ]
+  },
+  {
+    "family": "geometry",
+    "format": "plain",
+    "id": "geometry-01",
+    "input_mode": "stdin",
+    "input_sha256": "7b145319394d770bfa7d54b1063f6add8e904a12c3d1717d6b9ef99939922bbb",
+    "tags": [
+      "node-size",
+      "labels",
+      "shape"
+    ]
+  },
+  {
+    "family": "geometry",
+    "format": "plain",
+    "id": "geometry-02",
+    "input_mode": "stdin",
+    "input_sha256": "ea446d9fd0166949eacbf0e1b2215d9ca3469e754841a4a416703bec4db621f0",
+    "tags": [
+      "node-size",
+      "labels",
+      "shape",
+      "fixed-size"
+    ]
+  },
+  {
+    "family": "geometry",
+    "format": "plain",
+    "id": "geometry-03",
+    "input_mode": "stdin",
+    "input_sha256": "c7391eb53b3d838456a184c0b3cabe674ee9a54219e63afa314f6b95bfb731b1",
+    "tags": [
+      "node-size",
+      "labels",
+      "shape"
+    ]
+  },
+  {
+    "family": "geometry",
+    "format": "plain",
+    "id": "geometry-04",
+    "input_mode": "file",
+    "input_sha256": "9c09f2095d01b07931ac8dd856930cb8316486e417fa798c88525af7397e2a26",
+    "tags": [
+      "node-size",
+      "labels",
+      "shape",
+      "fixed-size"
+    ]
+  },
+  {
+    "family": "geometry",
+    "format": "plain",
+    "id": "geometry-05",
+    "input_mode": "stdin",
+    "input_sha256": "04380cb204f48a6eb35a2ec6800bd9f66fb581141c9ca808fb2b5d27e1ee8e74",
+    "tags": [
+      "node-size",
+      "labels",
+      "shape",
+      "font"
+    ]
+  },
+  {
+    "family": "geometry",
+    "format": "plain",
+    "id": "geometry-06",
+    "input_mode": "stdin",
+    "input_sha256": "1649dc91ecd4550393cd5caea4acdef9486cb0fdef7ec76aacf808b31c00e504",
+    "tags": [
+      "node-size",
+      "labels",
+      "shape"
+    ]
+  },
+  {
+    "family": "geometry",
+    "format": "plain",
+    "id": "geometry-07",
+    "input_mode": "stdin",
+    "input_sha256": "92387fe85a2bc89c25204bb3a7dcf066dc40c1ff1cf767784792864b655bee80",
+    "tags": [
+      "node-size",
+      "labels",
+      "shape",
+      "fixed-size"
+    ]
+  },
+  {
+    "family": "geometry",
+    "format": "plain",
+    "id": "geometry-08",
+    "input_mode": "file",
+    "input_sha256": "40074514cafaf0b8da84a553f52e55ec5d484b3f751f1872d64f09472d5a8124",
+    "tags": [
+      "node-size",
+      "labels",
+      "shape",
+      "html-label",
+      "font"
+    ]
+  },
+  {
+    "family": "geometry",
+    "format": "plain",
+    "id": "geometry-09",
+    "input_mode": "stdin",
+    "input_sha256": "07bca940203d7f8a06a73b11de8bce041eb92ac7a66869bfc124194fbb099890",
+    "tags": [
+      "node-size",
+      "labels",
+      "shape",
+      "html-label",
+      "font"
+    ]
+  },
+  {
+    "family": "edge",
+    "format": "plain",
+    "id": "edge-00",
+    "input_mode": "file",
+    "input_sha256": "71bc782e4384b2241eaa8434b020d802f5e00c214cd5b0843c86b944c7961603",
+    "tags": [
+      "edge-label",
+      "spline",
+      "parallel"
+    ]
+  },
+  {
+    "family": "edge",
+    "format": "plain",
+    "id": "edge-01",
+    "input_mode": "stdin",
+    "input_sha256": "528cdbd5ccfffd10f8c9b5faaf4b659f73eb3262c7b48443c16de0e8ad162110",
+    "tags": [
+      "edge-label",
+      "spline"
+    ]
+  },
+  {
+    "family": "edge",
+    "format": "plain",
+    "id": "edge-02",
+    "input_mode": "stdin",
+    "input_sha256": "2b514426f55d22d65c7dfd16c59eba8ac081d2089ee822ea89f44e48fff9d897",
+    "tags": [
+      "edge-label",
+      "spline",
+      "parallel"
+    ]
+  },
+  {
+    "family": "edge",
+    "format": "plain",
+    "id": "edge-03",
+    "input_mode": "stdin",
+    "input_sha256": "30e1cff2be6cb18033f3dffeb6ab93a021da9129fddb28e9f5120e1413c80978",
+    "tags": [
+      "edge-label",
+      "spline"
+    ]
+  },
+  {
+    "family": "edge",
+    "format": "plain",
+    "id": "edge-04",
+    "input_mode": "file",
+    "input_sha256": "e063a507b88708c1dcb8a0929c553af1fb571ad3974c78a26e0002bb25082fe7",
+    "tags": [
+      "edge-label",
+      "spline",
+      "parallel"
+    ]
+  },
+  {
+    "family": "edge",
+    "format": "plain",
+    "id": "edge-05",
+    "input_mode": "stdin",
+    "input_sha256": "bf408c3ac574e8d4acfacaef5f78321b36ea137c0bca4ac9b54e3427a0cd93a3",
+    "tags": [
+      "edge-label",
+      "spline"
+    ]
+  },
+  {
+    "family": "edge",
+    "format": "plain",
+    "id": "edge-06",
+    "input_mode": "stdin",
+    "input_sha256": "fdfd18cc5714d982d64bb1a1395ea83274258f7c9989dfc3d3b8180d551cbf15",
+    "tags": [
+      "edge-label",
+      "spline",
+      "parallel"
+    ]
+  },
+  {
+    "family": "edge",
+    "format": "plain",
+    "id": "edge-07",
+    "input_mode": "stdin",
+    "input_sha256": "e4073333d8bfbe40f047098c1a2b72d3dd66047d6e9b97f660b6407f6af9e458",
+    "tags": [
+      "edge-label",
+      "spline"
+    ]
+  },
+  {
+    "family": "edge",
+    "format": "plain",
+    "id": "edge-08",
+    "input_mode": "file",
+    "input_sha256": "ded686e90b3fe8058af92ace991229eab33c1ff9b5bc809dcb731837a5514398",
+    "tags": [
+      "edge-label",
+      "spline",
+      "parallel"
+    ]
+  },
+  {
+    "family": "edge",
+    "format": "plain",
+    "id": "edge-09",
+    "input_mode": "stdin",
+    "input_sha256": "836532509a8ee978f2768a75044751ea5ac522d62eefb2b862150da5e6a81285",
+    "tags": [
+      "edge-label",
+      "spline"
+    ]
+  },
+  {
+    "family": "ports",
+    "format": "plain-ext",
+    "id": "ports-00",
+    "input_mode": "file",
+    "input_sha256": "b3e2dd731f18abcdf71ca37a9afa4e91646f4895d180503674af2a5f79988a03",
+    "tags": [
+      "ports",
+      "record",
+      "routing"
+    ]
+  },
+  {
+    "family": "ports",
+    "format": "plain-ext",
+    "id": "ports-01",
+    "input_mode": "stdin",
+    "input_sha256": "7e5693c3e6314154442e7963a54ec948bb44dd772e44b101a90151fe09a01031",
+    "tags": [
+      "ports",
+      "record",
+      "routing"
+    ]
+  },
+  {
+    "family": "ports",
+    "format": "plain-ext",
+    "id": "ports-02",
+    "input_mode": "stdin",
+    "input_sha256": "400fef2e0292830c613d2a8d7f44c33a5a2b0606635a1f0b09e654664078aa17",
+    "tags": [
+      "ports",
+      "record",
+      "routing"
+    ]
+  },
+  {
+    "family": "ports",
+    "format": "plain-ext",
+    "id": "ports-03",
+    "input_mode": "stdin",
+    "input_sha256": "150bda8d18fcfda47c2bce3d0289e1611ea698b1d5d3c131fbb8dbcd5aff4e1a",
+    "tags": [
+      "ports",
+      "record",
+      "routing"
+    ]
+  },
+  {
+    "family": "ports",
+    "format": "plain-ext",
+    "id": "ports-04",
+    "input_mode": "file",
+    "input_sha256": "8ad3eed8d7eb60e8192167effe292d891955a0261548a4f881d8f51c30357f83",
+    "tags": [
+      "ports",
+      "record",
+      "routing"
+    ]
+  },
+  {
+    "family": "ports",
+    "format": "plain-ext",
+    "id": "ports-05",
+    "input_mode": "stdin",
+    "input_sha256": "80e1282cbaf8c8946e7eaafd49c0b840da888d6182d8c12d11537a36a4ac9d84",
+    "tags": [
+      "ports",
+      "record",
+      "routing"
+    ]
+  },
+  {
+    "family": "ports",
+    "format": "plain-ext",
+    "id": "ports-06",
+    "input_mode": "stdin",
+    "input_sha256": "2ec8d2e0da9eb1c8abea705186f03b7a57256fa37dd49da75157ea8e52b1bc43",
+    "tags": [
+      "ports",
+      "record",
+      "routing"
+    ]
+  },
+  {
+    "family": "ports",
+    "format": "plain-ext",
+    "id": "ports-07",
+    "input_mode": "stdin",
+    "input_sha256": "4c054d1e5183a000ae4ff384b2cf2b587a69134523267e8ec1deb6530856b57b",
+    "tags": [
+      "ports",
+      "record",
+      "routing",
+      "attribute-port"
+    ]
+  },
+  {
+    "family": "ports",
+    "format": "plain-ext",
+    "id": "ports-08",
+    "input_mode": "file",
+    "input_sha256": "c193b8c084ff468d56d1d0ff39a193d57433198f0b96912b91b58584e1cda225",
+    "tags": [
+      "ports",
+      "record",
+      "routing",
+      "attribute-port"
+    ]
+  },
+  {
+    "family": "ports",
+    "format": "plain-ext",
+    "id": "ports-09",
+    "input_mode": "stdin",
+    "input_sha256": "5e99ba706189326b9a016f342cafa9ea264f73e3c550edf4e7b7cc0b1cf8eab7",
+    "tags": [
+      "ports",
+      "record",
+      "routing",
+      "attribute-port"
+    ]
+  },
+  {
+    "family": "subgraphs",
+    "format": "plain",
+    "id": "subgraphs-00",
+    "input_mode": "file",
+    "input_sha256": "6f6f86cad89d2e7d00e9d4539020431e2c05d3800f3a3921c084d45eb815a6a3",
+    "tags": [
+      "subgraph",
+      "defaults",
+      "quoted-id"
+    ]
+  },
+  {
+    "family": "subgraphs",
+    "format": "plain",
+    "id": "subgraphs-01",
+    "input_mode": "stdin",
+    "input_sha256": "f820d12fc9014092e5e53c1f32db417a00c2af38e87dfff3408a299bba2ed909",
+    "tags": [
+      "subgraph",
+      "defaults",
+      "quoted-id"
+    ]
+  },
+  {
+    "family": "subgraphs",
+    "format": "plain",
+    "id": "subgraphs-02",
+    "input_mode": "stdin",
+    "input_sha256": "83e1707a0144ad9eaf6f3488f0a2296f1d2477befb30b39067b8493960307452",
+    "tags": [
+      "subgraph",
+      "defaults",
+      "quoted-id"
+    ]
+  },
+  {
+    "family": "subgraphs",
+    "format": "plain",
+    "id": "subgraphs-03",
+    "input_mode": "stdin",
+    "input_sha256": "c88b3d851484d2a7abe5fdf1c05561d8efc013f55698618b47fd6120c27d33dd",
+    "tags": [
+      "subgraph",
+      "defaults",
+      "quoted-id"
+    ]
+  },
+  {
+    "family": "subgraphs",
+    "format": "plain",
+    "id": "subgraphs-04",
+    "input_mode": "file",
+    "input_sha256": "a8d4e8ab48e8ad13e67c80cd2b0abca014332bee66398e157b3803bdd0de3e71",
+    "tags": [
+      "subgraph",
+      "defaults",
+      "quoted-id"
+    ]
+  },
+  {
+    "family": "subgraphs",
+    "format": "plain",
+    "id": "subgraphs-05",
+    "input_mode": "stdin",
+    "input_sha256": "47a27fce0a8b47daf5035e3b823ecb08c40704b405ec1a7bc7e3a84c8b3693ab",
+    "tags": [
+      "subgraph",
+      "defaults",
+      "quoted-id"
+    ]
+  },
+  {
+    "family": "subgraphs",
+    "format": "plain",
+    "id": "subgraphs-06",
+    "input_mode": "stdin",
+    "input_sha256": "06324c62b90a1bef7e66b47b93429bf3704144c6819666a5d9b96c7c8a13d15a",
+    "tags": [
+      "subgraph",
+      "defaults",
+      "quoted-id"
+    ]
+  },
+  {
+    "family": "subgraphs",
+    "format": "plain",
+    "id": "subgraphs-07",
+    "input_mode": "stdin",
+    "input_sha256": "226a3749d7bf8ad2c6eb5d9b976f8906a4a85fa6b17e43da7e05214a41efef7e",
+    "tags": [
+      "subgraph",
+      "defaults",
+      "quoted-id",
+      "escaped-quote"
+    ]
+  },
+  {
+    "family": "subgraphs",
+    "format": "plain",
+    "id": "subgraphs-08",
+    "input_mode": "file",
+    "input_sha256": "226743e42f047796cadc80b496a8f76490859ce8eab128301700c6fe6723399b",
+    "tags": [
+      "subgraph",
+      "defaults",
+      "quoted-id",
+      "escaped-quote"
+    ]
+  },
+  {
+    "family": "subgraphs",
+    "format": "plain",
+    "id": "subgraphs-09",
+    "input_mode": "stdin",
+    "input_sha256": "88884e9ccb3b343f53d203f169d532e12816d46b60a7d129c3d6173e17216825",
+    "tags": [
+      "subgraph",
+      "defaults",
+      "quoted-id",
+      "escaped-quote"
+    ]
+  },
+  {
+    "family": "clusters",
+    "format": "plain",
+    "id": "clusters-00",
+    "input_mode": "file",
+    "input_sha256": "214047cd225a0d1429e951578c21838fb648265ec9f70da082dd15eda22c75b3",
+    "tags": [
+      "cluster",
+      "compound-edge",
+      "routing"
+    ]
+  },
+  {
+    "family": "clusters",
+    "format": "plain",
+    "id": "clusters-01",
+    "input_mode": "stdin",
+    "input_sha256": "d33b8ae61ab00fc68e10a5d025c69898bc97aad127d0afaf875a1e73d604f772",
+    "tags": [
+      "cluster",
+      "compound-edge",
+      "routing"
+    ]
+  },
+  {
+    "family": "clusters",
+    "format": "plain",
+    "id": "clusters-02",
+    "input_mode": "stdin",
+    "input_sha256": "e69adfe3f42dbbee62dfd7add438e6c1973148da96123fd43a265894bf562116",
+    "tags": [
+      "cluster",
+      "compound-edge",
+      "routing"
+    ]
+  },
+  {
+    "family": "clusters",
+    "format": "plain",
+    "id": "clusters-03",
+    "input_mode": "stdin",
+    "input_sha256": "a93189574e46fd507b5a26289b95b1b079f2de33b51f6ab03e4c2cc216c26a0f",
+    "tags": [
+      "cluster",
+      "compound-edge",
+      "routing"
+    ]
+  },
+  {
+    "family": "clusters",
+    "format": "plain",
+    "id": "clusters-04",
+    "input_mode": "file",
+    "input_sha256": "1b54f083845481fba2f911f87945d91c17b945da6bc68b821cb4eb602a1e1b74",
+    "tags": [
+      "cluster",
+      "compound-edge",
+      "routing"
+    ]
+  },
+  {
+    "family": "clusters",
+    "format": "plain",
+    "id": "clusters-05",
+    "input_mode": "stdin",
+    "input_sha256": "597b510fc0e05b8bdce03ddea5c45a951f3c3b02545902602cbb2b86683e932c",
+    "tags": [
+      "cluster",
+      "compound-edge",
+      "routing",
+      "nested-cluster"
+    ]
+  },
+  {
+    "family": "clusters",
+    "format": "plain",
+    "id": "clusters-06",
+    "input_mode": "stdin",
+    "input_sha256": "27c2fa9321f3c527a7c74be1abc9d22321d18014faa409d2b8a87fe874ecfc64",
+    "tags": [
+      "cluster",
+      "compound-edge",
+      "routing",
+      "nested-cluster"
+    ]
+  },
+  {
+    "family": "clusters",
+    "format": "plain",
+    "id": "clusters-07",
+    "input_mode": "stdin",
+    "input_sha256": "0e63622177dd6db9254cc9c5b3670e318e28eb37fecc41108f7b158419f0b759",
+    "tags": [
+      "cluster",
+      "compound-edge",
+      "routing",
+      "nested-cluster"
+    ]
+  },
+  {
+    "family": "clusters",
+    "format": "plain",
+    "id": "clusters-08",
+    "input_mode": "file",
+    "input_sha256": "87d627638ef6196439fb25f867bcbeb5c1b5537053bd921ee02775c0e1b8ecc8",
+    "tags": [
+      "cluster",
+      "compound-edge",
+      "routing",
+      "nested-cluster"
+    ]
+  },
+  {
+    "family": "clusters",
+    "format": "plain",
+    "id": "clusters-09",
+    "input_mode": "stdin",
+    "input_sha256": "8b3dac9128b43ad452fdba301e9b0c98b58b4a0170139b904c6bcf0ff49ee419",
+    "tags": [
+      "cluster",
+      "compound-edge",
+      "routing",
+      "nested-cluster"
+    ]
+  },
+  {
+    "family": "cycles",
+    "format": "plain",
+    "id": "cycles-00",
+    "input_mode": "file",
+    "input_sha256": "1a86d4e878922be08e56bea93fa1fdda69019f647f5e72dd7aad9da40ee8e036",
+    "tags": [
+      "cycle",
+      "self-loop",
+      "multiedge"
+    ]
+  },
+  {
+    "family": "cycles",
+    "format": "plain",
+    "id": "cycles-01",
+    "input_mode": "stdin",
+    "input_sha256": "85159e28d77f79258723de71c81499910f5379a1ff994669aff11e77c0346b2e",
+    "tags": [
+      "cycle"
+    ]
+  },
+  {
+    "family": "cycles",
+    "format": "plain",
+    "id": "cycles-02",
+    "input_mode": "stdin",
+    "input_sha256": "5cb8494997bc593e3c22d6338b328cb733cf7f1e5c9e8b32f2e1255470640fba",
+    "tags": [
+      "cycle",
+      "self-loop"
+    ]
+  },
+  {
+    "family": "cycles",
+    "format": "plain",
+    "id": "cycles-03",
+    "input_mode": "stdin",
+    "input_sha256": "fc7db8b36aa1e1726fb03f6bbba942a1127719c3854c3cc76769f523edfd3789",
+    "tags": [
+      "cycle",
+      "multiedge"
+    ]
+  },
+  {
+    "family": "cycles",
+    "format": "plain",
+    "id": "cycles-04",
+    "input_mode": "file",
+    "input_sha256": "e8277950aba93898361dc8fd40a57b0f49fb1ac397e000099e77cabce3a73841",
+    "tags": [
+      "cycle",
+      "self-loop"
+    ]
+  },
+  {
+    "family": "cycles",
+    "format": "plain",
+    "id": "cycles-05",
+    "input_mode": "stdin",
+    "input_sha256": "ceaa12772c35f9682e541374a445f485726730a228bf2e73561a4d7d7ad7ecd1",
+    "tags": [
+      "cycle"
+    ]
+  },
+  {
+    "family": "cycles",
+    "format": "plain",
+    "id": "cycles-06",
+    "input_mode": "stdin",
+    "input_sha256": "b55a700354bf5f80650958e099074c4a14bb89c255ab9f7102b738898aa920e1",
+    "tags": [
+      "cycle",
+      "self-loop",
+      "multiedge"
+    ]
+  },
+  {
+    "family": "cycles",
+    "format": "plain",
+    "id": "cycles-07",
+    "input_mode": "stdin",
+    "input_sha256": "e9fec9ccb31bc07b42c00e1b273f6bf562091939c19bba365ea2d7d5ed5abb47",
+    "tags": [
+      "cycle"
+    ]
+  },
+  {
+    "family": "cycles",
+    "format": "plain",
+    "id": "cycles-08",
+    "input_mode": "file",
+    "input_sha256": "07463095cfa42a4d7630364d3a45efe6e90f2667b775d4dfce159874cbcd4488",
+    "tags": [
+      "cycle",
+      "self-loop"
+    ]
+  },
+  {
+    "family": "cycles",
+    "format": "plain",
+    "id": "cycles-09",
+    "input_mode": "stdin",
+    "input_sha256": "689927b4cb84620f3ca535fad02818c0d33fd2d6e305ba35f6318b8f9ca772bb",
+    "tags": [
+      "cycle",
+      "multiedge"
+    ]
+  },
+  {
+    "family": "components",
+    "format": "plain",
+    "id": "components-00",
+    "input_mode": "file",
+    "input_sha256": "dbffdc5d8ff90e3bd1180444db91acb1b24635394cf74f68035f22f3ef3ca9a1",
+    "tags": [
+      "undirected",
+      "components",
+      "packing"
+    ]
+  },
+  {
+    "family": "components",
+    "format": "plain",
+    "id": "components-01",
+    "input_mode": "stdin",
+    "input_sha256": "c8d0018216b8c7476d28dcb2b4f4182f43a85a86878596cce592b8d5462f5534",
+    "tags": [
+      "undirected",
+      "components",
+      "packing"
+    ]
+  },
+  {
+    "family": "components",
+    "format": "plain",
+    "id": "components-02",
+    "input_mode": "stdin",
+    "input_sha256": "afed7f5149f943dfa875e4cb963244dbe4b46a48511344db366bf20f989192d4",
+    "tags": [
+      "undirected",
+      "components",
+      "packing"
+    ]
+  },
+  {
+    "family": "components",
+    "format": "plain",
+    "id": "components-03",
+    "input_mode": "stdin",
+    "input_sha256": "259405533a2819bb0cf811cf9c828121e838cb32d289ad38a8c4c1e6d03100eb",
+    "tags": [
+      "undirected",
+      "components",
+      "packing"
+    ]
+  },
+  {
+    "family": "components",
+    "format": "plain",
+    "id": "components-04",
+    "input_mode": "file",
+    "input_sha256": "72a8b22a7418f0d0f34a5857608d28977c85c29cd622da33657d5f3882d8447a",
+    "tags": [
+      "undirected",
+      "components",
+      "packing"
+    ]
+  },
+  {
+    "family": "components",
+    "format": "plain",
+    "id": "components-05",
+    "input_mode": "stdin",
+    "input_sha256": "3766432d5baa8abac3351783205e05d9173370805b7f88fdb632edee87a42963",
+    "tags": [
+      "undirected",
+      "components",
+      "packing"
+    ]
+  },
+  {
+    "family": "components",
+    "format": "plain",
+    "id": "components-06",
+    "input_mode": "stdin",
+    "input_sha256": "ca2b7221b608bdcbff24a3b619fd4b968307c1aea8fbfad39f278e3ad9502652",
+    "tags": [
+      "undirected",
+      "components",
+      "packing"
+    ]
+  },
+  {
+    "family": "components",
+    "format": "plain",
+    "id": "components-07",
+    "input_mode": "stdin",
+    "input_sha256": "e03f1855862373be609ab229378c55245d25d04dc0035a43a593f691caeb8715",
+    "tags": [
+      "undirected",
+      "components",
+      "packing"
+    ]
+  },
+  {
+    "family": "components",
+    "format": "plain",
+    "id": "components-08",
+    "input_mode": "file",
+    "input_sha256": "07fa9c78f9f8fe465f46002d25e65058250e8cb324b701f30f636b5b6151fd53",
+    "tags": [
+      "undirected",
+      "components",
+      "packing"
+    ]
+  },
+  {
+    "family": "components",
+    "format": "plain",
+    "id": "components-09",
+    "input_mode": "stdin",
+    "input_sha256": "38e92d450148f44222fcca90d9b89339a2319255882c8f31db8b06090b3dae94",
+    "tags": [
+      "undirected",
+      "components",
+      "packing"
+    ]
+  },
+  {
+    "family": "compound",
+    "format": "plain",
+    "id": "compound-00",
+    "input_mode": "file",
+    "input_sha256": "a0e863712cba861b7a2515bdfd9620a837d7e2ae8a7163b9e5f146f82427673b",
+    "tags": [
+      "workflow",
+      "cluster",
+      "record-port",
+      "labels",
+      "cycles",
+      "rank"
+    ]
+  },
+  {
+    "family": "compound",
+    "format": "plain-ext",
+    "id": "compound-01",
+    "input_mode": "stdin",
+    "input_sha256": "0da9ff1fdd9fafa5cdc2c1e13a579994416a624a3617c07e7b6079425a57dd8a",
+    "tags": [
+      "workflow",
+      "cluster",
+      "record-port",
+      "labels",
+      "cycles",
+      "rank"
+    ]
+  },
+  {
+    "family": "compound",
+    "format": "plain",
+    "id": "compound-02",
+    "input_mode": "stdin",
+    "input_sha256": "6cb409177fc3a3db6bd72f6f22af83286bea301375c3cb8d393fca0b84e9bafe",
+    "tags": [
+      "workflow",
+      "cluster",
+      "record-port",
+      "labels",
+      "cycles",
+      "rank"
+    ]
+  },
+  {
+    "family": "compound",
+    "format": "plain-ext",
+    "id": "compound-03",
+    "input_mode": "stdin",
+    "input_sha256": "3f6a52cd155e1e970d91a6a2ee5b318e735eb4e1aeb9c3acf36b88a4262c8d55",
+    "tags": [
+      "workflow",
+      "cluster",
+      "record-port",
+      "labels",
+      "cycles",
+      "rank"
+    ]
+  },
+  {
+    "family": "compound",
+    "format": "plain",
+    "id": "compound-04",
+    "input_mode": "file",
+    "input_sha256": "c143659c4e6aaa68dd94326718f94a8dff4c5f4bb33088eb50d584950af2a3c0",
+    "tags": [
+      "workflow",
+      "cluster",
+      "record-port",
+      "labels",
+      "cycles",
+      "rank"
+    ]
+  },
+  {
+    "family": "compound",
+    "format": "plain-ext",
+    "id": "compound-05",
+    "input_mode": "stdin",
+    "input_sha256": "952f73f5f7a69f73e79a35732f2649996469bdd65bb611686c8f2a39c7a82d67",
+    "tags": [
+      "workflow",
+      "cluster",
+      "record-port",
+      "labels",
+      "cycles",
+      "rank"
+    ]
+  },
+  {
+    "family": "compound",
+    "format": "plain",
+    "id": "compound-06",
+    "input_mode": "stdin",
+    "input_sha256": "a50777ff41b30c8362d24a42352aea119641a87abdfdad9d729a5960cef32a3d",
+    "tags": [
+      "workflow",
+      "cluster",
+      "record-port",
+      "labels",
+      "cycles",
+      "rank"
+    ]
+  },
+  {
+    "family": "compound",
+    "format": "plain-ext",
+    "id": "compound-07",
+    "input_mode": "stdin",
+    "input_sha256": "ea8fa782ed1295d40d71d335f771e6d139a02f6783796a91b091f848da7e4ed6",
+    "tags": [
+      "workflow",
+      "cluster",
+      "record-port",
+      "labels",
+      "cycles",
+      "rank"
+    ]
+  },
+  {
+    "family": "compound",
+    "format": "plain",
+    "id": "compound-08",
+    "input_mode": "file",
+    "input_sha256": "8c1a9d00734fede9b5c6d740346fa3c12915f4253773b064d167901f2269761e",
+    "tags": [
+      "workflow",
+      "cluster",
+      "record-port",
+      "labels",
+      "cycles",
+      "rank"
+    ]
+  },
+  {
+    "family": "compound",
+    "format": "plain-ext",
+    "id": "compound-09",
+    "input_mode": "stdin",
+    "input_sha256": "0ea3fb8a08a9280b2664ea48391ce53d3b68f65e168a37097ab3d019474f2d03",
+    "tags": [
+      "workflow",
+      "cluster",
+      "record-port",
+      "labels",
+      "cycles",
+      "rank"
+    ]
+  }
+]

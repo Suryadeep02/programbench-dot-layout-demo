@@ -1,0 +1,9 @@
+# DOT features in scope
+
+The inputs are local UTF-8 text containing ASCII identifiers and labels. They use ordinary DOT grammar: optional `strict`, `graph` or `digraph`, braces, node statements, edge statements (`--` or `->`), edge chains, attribute lists, default `graph`/`node`/`edge` statements, subgraphs, comments, quoted IDs, and HTML-like labels. Non-ASCII font/locale behavior is excluded. External images, imports, and file-writing features are excluded.
+
+The task emphasizes the `dot` hierarchical engine. Directed and undirected graphs, cycles, self-loops, parallel edges, disconnected components, and clusters all occur. Common node shapes include ellipse, box, circle, diamond, plaintext, and record. Edge ports and compass points can occur, including record-field ports. Scored output is `plain` or `plain-ext` only; there is no image rendering.
+
+Graph, node, and edge attributes change layout and output. The scored subset includes `rankdir`, `ranksep`, `nodesep`, `rank`, `minlen`, `weight`, `constraint`, `ordering`, `group`, `compound`, `lhead`, `ltail`, `shape`, `width`, `height`, `fixedsize`, `margin`, `label`, `xlabel`, `fontsize`, `fontname`, `color`, `fillcolor`, `style`, `dir`, `arrowhead`, `arrowtail`, `headport`, and `tailport`. Defaults can be inherited or overridden. Cluster labels and nested clusters can change spacing even though clusters do not have their own plain records.
+
+The reference is a fully static build of Graphviz 14.0.4. It embeds the `dot` layout, core plain renderer, and Expat support for HTML-like labels. It omits optional Pango/Cairo, GD, FreeType, and external image loaders. Its text metrics may differ from a system Graphviz installation. Probe `/opt/reference/dot` for exact behavior; do not substitute a different installed Graphviz version.

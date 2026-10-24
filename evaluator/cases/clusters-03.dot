@@ -1,0 +1,10 @@
+digraph cluster_03 {
+graph [compound=true,rankdir=LR];
+node [shape=box];
+subgraph cluster_ingest { label="ingest 3"; api; queue; api -> queue; }
+subgraph cluster_compute { label="compute 3"; worker; validate; worker -> validate; }
+queue -> worker [ltail=cluster_ingest,lhead=cluster_compute];
+validate -> result;
+subgraph cluster_review { label="review"; check; approve; check -> approve; }
+validate -> check [lhead=cluster_review]; approve -> result [ltail=cluster_review];
+}

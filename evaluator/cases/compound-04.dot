@@ -1,0 +1,13 @@
+digraph workflow_04 {
+graph [compound=true,rankdir=TB,nodesep=0.3];
+node [shape=box,style=rounded];
+subgraph cluster_intake { label="Intake 4"; request [shape=record,label="{<raw> raw|<ok> accepted}"]; parse; request:ok -> parse; }
+subgraph cluster_checks { label="Checks"; schema; policy; audit; schema -> audit; policy -> audit; }
+subgraph cluster_delivery { label="Delivery"; queue; worker; store; queue -> worker -> store; }
+parse -> schema [ltail=cluster_intake,lhead=cluster_checks,label=structure];
+parse -> policy [label=permission];
+audit -> queue [ltail=cluster_checks,lhead=cluster_delivery,label=commit];
+worker -> policy [constraint=false,color=gray50,style=dashed];
+store -> notify [label=complete];
+schema -> policy [constraint=false,color=gray60];
+}

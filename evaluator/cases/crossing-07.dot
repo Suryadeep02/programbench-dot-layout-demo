@@ -1,0 +1,44 @@
+digraph cross_07 {
+node [shape=circle,width=0.42,fixedsize=true];
+subgraph { rank=same; a0; a1; a2; a3; a4; a5; }
+subgraph { rank=same; b0; b1; b2; b3; b4; b5; }
+subgraph { rank=same; c0; c1; c2; c3; c4; c5; }
+a0 -> b5;
+a0 -> b3;
+a0 -> b1;
+a1 -> b3;
+a1 -> b5;
+a1 -> b1;
+a2 -> b4;
+a2 -> b0;
+a2 -> b1;
+a3 -> b5;
+a3 -> b0;
+a3 -> b2;
+a4 -> b1;
+a4 -> b4;
+a4 -> b2;
+a5 -> b4;
+a5 -> b5;
+a5 -> b3;
+b0 -> c5;
+b0 -> c0;
+b0 -> c2;
+b1 -> c5;
+b1 -> c3;
+b1 -> c2;
+b2 -> c2;
+b2 -> c5;
+b2 -> c3;
+b3 -> c2;
+b3 -> c4;
+b3 -> c3;
+b4 -> c1;
+b4 -> c3;
+b4 -> c2;
+b5 -> c5;
+b5 -> c4;
+b5 -> c3;
+a1 [group=west]; b1 [group=west]; c1 [group=west];
+a1 -> c2 [constraint=false];
+}

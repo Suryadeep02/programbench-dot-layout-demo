@@ -1,0 +1,7 @@
+graph component_03 {
+node [shape=ellipse];
+a -- b -- c;
+x -- y;
+p -- q -- r -- p;
+graph [rankdir=LR,nodesep=0.45];
+}

@@ -1,0 +1,15 @@
+# Reconstruct `dot`'s plain layout
+
+> Historical calibration contract: these inputs were held out during the recorded attempts. The corpus in this public demo is now public.
+
+You are given a compiled Graphviz 14.0.4 reference executable at `/opt/reference/dot` and offline notes in `/opt/task/docs`. You may run the reference on DOT inputs of your choosing. Reconstruct its behavior as source code in `/workspace`.
+
+Create `/workspace/compile.sh`. When run from `/workspace` without network access, it must build or prepare an executable `/workspace/build/dot` using only files in your submitted source tree and the documented base toolchains. The executable may load files from that same source tree at runtime. The submission must contain UTF-8 source and text assets; prebuilt executable files, object files, archives of code, symlinks, and encoded copies of the reference are not accepted. The source limit is 256 files, 5 MB total, and 1 MB per file. Prior `build/` output is discarded before a clean rebuild.
+
+The build and runtime image has GCC/G++ 14.4, GNU Make 4.4, Python 3.13, and gccgo (Go 1.18 language level). Standard Linux utilities are present. There is no Graphviz package or implementation library in the clean build image. The build has no network; each graded invocation runs in a fresh network-disabled, read-only container with a writable `/tmp` and the full source tree copied into `/workspace` so legitimate submitted assets remain available.
+
+The grader invokes your program as `/workspace/build/dot -Tplain [input.dot]` or `/workspace/build/dot -Tplain-ext [input.dot]`. Without a file argument, read DOT from standard input. Write the complete plain-format result to standard output and exit zero for valid cases. Only those two format flags, one optional local input file, and standard input are graded. `-V` is available on the reference for orientation but is not graded.
+
+The hidden inputs are valid, bounded DOT graphs. They cover `graph` and `digraph`, ordinary and quoted IDs, comments, edge chains, attributes and defaults, named/anonymous subgraphs, ranks, clusters, record/HTML-like labels, ports, directions, colors/styles, cycles, loops, parallel edges, and disconnected components. Common layout attributes include `rankdir`, `ranksep`, `nodesep`, `minlen`, `weight`, `constraint`, `ordering`, `group`, `compound`, `lhead`, `ltail`, `shape`, `width`, `height`, `fixedsize`, `margin`, and labels. Inputs contain at most 20 nodes, 40 edges, and 12 KiB of DOT text; they have no external images or remote references. See the offline notes for the scored behavior and exact output grammar.
+
+Each hidden case has one vote. Your output is parsed as plain text, so harmless record order and whitespace variations are tolerated, but every graph, node, and edge field and every geometric coordinate matters. Geometry is compared with the tolerance stated in `/opt/task/docs/scoring.md`; omission, fabricated coordinates, wrong splines, extra records, and non-finite numbers fail. The grader runs in an offline clean image without the reference program or Graphviz libraries. You have a six-hour task budget in the calibration setting.

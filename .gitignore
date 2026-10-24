@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+# Local acquisition/build products are not release assets.
+author/source/
+author/reference/
+agent/reference/
+agent/docs/LICENSE.upstream
+agent/docs/AUTHORS.upstream
+validation/local/

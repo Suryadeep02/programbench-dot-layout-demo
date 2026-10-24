@@ -1,0 +1,7 @@
+graph component_04 {
+node [shape=ellipse];
+a -- b -- c;
+x -- y;
+lonely;
+c -- x [style=dashed];
+}

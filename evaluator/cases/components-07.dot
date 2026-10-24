@@ -1,0 +1,8 @@
+graph component_07 {
+node [shape=ellipse];
+a -- b -- c;
+x -- y;
+c -- x [style=dashed];
+"separate 7" -- orphan_7 [label=link];
+graph [rankdir=LR,nodesep=0.45];
+}

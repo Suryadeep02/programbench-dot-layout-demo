@@ -1,0 +1,11 @@
+digraph cluster_06 {
+graph [compound=true,rankdir=TB];
+node [shape=box];
+subgraph cluster_ingest { label="ingest 6"; api; queue; api -> queue; }
+subgraph cluster_compute { label="compute 6"; subgraph cluster_inner { label="inner"; worker; validate; worker -> validate; } }
+queue -> worker [ltail=cluster_ingest,lhead=cluster_compute];
+validate -> result;
+subgraph cluster_review { label="review"; check; approve; check -> approve; }
+validate -> check [lhead=cluster_review]; approve -> result [ltail=cluster_review];
+subgraph cluster_store { label="storage"; result; archive; result -> archive; }
+}

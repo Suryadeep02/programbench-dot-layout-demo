@@ -1,0 +1,10 @@
+digraph cluster_07 {
+graph [compound=true,rankdir=LR];
+node [shape=box];
+subgraph cluster_ingest { label="ingest 7"; api; queue; api -> queue; }
+subgraph cluster_compute { label="compute 7"; subgraph cluster_inner { label="inner"; worker; validate; worker -> validate; } }
+queue -> worker [ltail=cluster_ingest,lhead=cluster_compute];
+validate -> result;
+api -> validate [constraint=false,color=gray50];
+subgraph cluster_store { label="storage"; result; archive; result -> archive; }
+}

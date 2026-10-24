@@ -1,0 +1,23 @@
+digraph cross_05 {
+node [shape=circle,width=0.42,fixedsize=true];
+subgraph { rank=same; a0; a1; a2; a3; }
+subgraph { rank=same; b0; b1; b2; b3; }
+subgraph { rank=same; c0; c1; c2; c3; }
+a0 -> b1;
+a0 -> b0;
+a1 -> b3;
+a1 -> b1;
+a2 -> b0;
+a2 -> b3;
+a3 -> b3;
+a3 -> b0;
+b0 -> c1;
+b0 -> c0;
+b1 -> c1;
+b1 -> c3;
+b2 -> c1;
+b2 -> c3;
+b3 -> c2;
+b3 -> c1;
+a1 -> c2 [constraint=false];
+}

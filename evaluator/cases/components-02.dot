@@ -1,0 +1,6 @@
+graph component_02 {
+node [shape=ellipse];
+a -- b -- c;
+x -- y;
+lonely;
+}
