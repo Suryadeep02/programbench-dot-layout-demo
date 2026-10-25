@@ -1,0 +1,1215 @@
+{
+  "cases": [
+    {
+      "differences": [],
+      "family": "foundations",
+      "id": "foundations-00",
+      "passed": true
+    },
+    {
+      "differences": [],
+      "family": "foundations",
+      "id": "foundations-01",
+      "passed": true
+    },
+    {
+      "differences": [],
+      "family": "foundations",
+      "id": "foundations-02",
+      "passed": true
+    },
+    {
+      "differences": [],
+      "family": "foundations",
+      "id": "foundations-03",
+      "passed": true
+    },
+    {
+      "differences": [],
+      "family": "foundations",
+      "id": "foundations-04",
+      "passed": true
+    },
+    {
+      "differences": [],
+      "family": "foundations",
+      "id": "foundations-05",
+      "passed": true
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "foundations",
+      "id": "foundations-06",
+      "passed": false
+    },
+    {
+      "differences": [],
+      "family": "foundations",
+      "id": "foundations-07",
+      "passed": true
+    },
+    {
+      "differences": [],
+      "family": "foundations",
+      "id": "foundations-08",
+      "passed": true
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "foundations",
+      "id": "foundations-09",
+      "passed": false
+    },
+    {
+      "differences": [],
+      "family": "rank",
+      "id": "rank-00",
+      "passed": true
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "rank",
+      "id": "rank-01",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('b', 'd')",
+        "edge geometry differs for ('c', 'e')",
+        "edge geometry differs for ('d', 'f')",
+        "edge geometry differs for ('e', 'f')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "rank",
+      "id": "rank-02",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('b', 'd')",
+        "edge geometry differs for ('b', 'e')",
+        "edge geometry differs for ('c', 'd')",
+        "edge geometry differs for ('a', 'b')",
+        "edge geometry differs for ('a', 'c')",
+        "edge geometry differs for ('d', 'e')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "rank",
+      "id": "rank-03",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "rank",
+      "id": "rank-04",
+      "passed": false
+    },
+    {
+      "differences": [],
+      "family": "rank",
+      "id": "rank-05",
+      "passed": true
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('a', 'b')",
+        "edge geometry differs for ('a', 'd')",
+        "edge geometry differs for ('b', 'c')",
+        "edge geometry differs for ('b', 'e')",
+        "edge geometry differs for ('c', 'd')",
+        "edge geometry differs for ('e', 'd')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "rank",
+      "id": "rank-06",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "rank",
+      "id": "rank-07",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('b', 'd')",
+        "edge geometry differs for ('b', 'e')",
+        "edge geometry differs for ('c', 'e')",
+        "edge geometry differs for ('d', 'f')",
+        "edge geometry differs for ('e', 'f')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "rank",
+      "id": "rank-08",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "rank",
+      "id": "rank-09",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('a0', 'b0')",
+        "edge geometry differs for ('a0', 'b2')",
+        "edge geometry differs for ('a1', 'b0')",
+        "edge geometry differs for ('a1', 'b2')",
+        "edge geometry differs for ('a2', 'b0')",
+        "edge geometry differs for ('a2', 'b1')",
+        "edge geometry differs for ('b0', 'c0')",
+        "edge geometry differs for ('b0', 'c1')"
+      ],
+      "family": "crossing",
+      "id": "crossing-00",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "crossing",
+      "id": "crossing-01",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('a0', 'b0')",
+        "edge geometry differs for ('a0', 'b2')",
+        "edge geometry differs for ('a1', 'b0')",
+        "edge geometry differs for ('a1', 'b1')",
+        "edge geometry differs for ('a2', 'b0')",
+        "edge geometry differs for ('a2', 'b1')",
+        "edge geometry differs for ('b0', 'c0')",
+        "edge geometry differs for ('b0', 'c2')"
+      ],
+      "family": "crossing",
+      "id": "crossing-02",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('a0', 'b0')",
+        "edge geometry differs for ('a0', 'b2')",
+        "edge geometry differs for ('a1', 'b0')",
+        "edge geometry differs for ('a1', 'b2')",
+        "edge geometry differs for ('a2', 'b1')",
+        "edge geometry differs for ('a2', 'b2')",
+        "edge geometry differs for ('a3', 'b0')",
+        "edge geometry differs for ('a3', 'b3')"
+      ],
+      "family": "crossing",
+      "id": "crossing-03",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('a0', 'b0')",
+        "edge geometry differs for ('a0', 'b1')",
+        "edge geometry differs for ('a1', 'b0')",
+        "edge geometry differs for ('a1', 'b2')",
+        "edge geometry differs for ('a2', 'b0')",
+        "edge geometry differs for ('a2', 'b2')",
+        "edge geometry differs for ('b0', 'c0')",
+        "edge geometry differs for ('b0', 'c2')"
+      ],
+      "family": "crossing",
+      "id": "crossing-04",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "crossing",
+      "id": "crossing-05",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "crossing",
+      "id": "crossing-06",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "crossing",
+      "id": "crossing-07",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "crossing",
+      "id": "crossing-08",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "crossing",
+      "id": "crossing-09",
+      "passed": false
+    },
+    {
+      "differences": [],
+      "family": "orientation",
+      "id": "orientation-00",
+      "passed": true
+    },
+    {
+      "differences": [],
+      "family": "orientation",
+      "id": "orientation-01",
+      "passed": true
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "orientation",
+      "id": "orientation-02",
+      "passed": false
+    },
+    {
+      "differences": [],
+      "family": "orientation",
+      "id": "orientation-03",
+      "passed": true
+    },
+    {
+      "differences": [],
+      "family": "orientation",
+      "id": "orientation-04",
+      "passed": true
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "orientation",
+      "id": "orientation-05",
+      "passed": false
+    },
+    {
+      "differences": [],
+      "family": "orientation",
+      "id": "orientation-06",
+      "passed": true
+    },
+    {
+      "differences": [],
+      "family": "orientation",
+      "id": "orientation-07",
+      "passed": true
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('start', 'load')",
+        "edge geometry differs for ('start', 'end')",
+        "edge geometry differs for ('load', 'validate')",
+        "edge geometry differs for ('validate', 'end')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "orientation",
+      "id": "orientation-08",
+      "passed": false
+    },
+    {
+      "differences": [],
+      "family": "orientation",
+      "id": "orientation-09",
+      "passed": true
+    },
+    {
+      "differences": [],
+      "family": "geometry",
+      "id": "geometry-00",
+      "passed": true
+    },
+    {
+      "differences": [],
+      "family": "geometry",
+      "id": "geometry-01",
+      "passed": true
+    },
+    {
+      "differences": [
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "geometry",
+      "id": "geometry-02",
+      "passed": false
+    },
+    {
+      "differences": [
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "geometry",
+      "id": "geometry-03",
+      "passed": false
+    },
+    {
+      "differences": [],
+      "family": "geometry",
+      "id": "geometry-04",
+      "passed": true
+    },
+    {
+      "differences": [
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "geometry",
+      "id": "geometry-05",
+      "passed": false
+    },
+    {
+      "differences": [],
+      "family": "geometry",
+      "id": "geometry-06",
+      "passed": true
+    },
+    {
+      "differences": [],
+      "family": "geometry",
+      "id": "geometry-07",
+      "passed": true
+    },
+    {
+      "differences": [
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "geometry",
+      "id": "geometry-08",
+      "passed": false
+    },
+    {
+      "differences": [
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "geometry",
+      "id": "geometry-09",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "edge",
+      "id": "edge-00",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "edge",
+      "id": "edge-01",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "edge",
+      "id": "edge-02",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "edge",
+      "id": "edge-03",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "edge",
+      "id": "edge-04",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "edge",
+      "id": "edge-05",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "edge",
+      "id": "edge-06",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "edge",
+      "id": "edge-07",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "edge",
+      "id": "edge-08",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "edge",
+      "id": "edge-09",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('source:out:e', 'transform:in:w')",
+        "edge geometry differs for ('transform:out', 'sink:in')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "ports",
+      "id": "ports-00",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('source:mid:s', 'transform:mid:w')",
+        "edge geometry differs for ('transform:out', 'sink:in')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "ports",
+      "id": "ports-01",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('source:in:e', 'transform:in:w')",
+        "edge geometry differs for ('source:mid', 'sink:in')",
+        "edge geometry differs for ('transform:out', 'sink:in')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "ports",
+      "id": "ports-02",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('source:out:s', 'transform:mid:w')",
+        "edge geometry differs for ('transform:out', 'sink:in')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "ports",
+      "id": "ports-03",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('source:mid:e', 'transform:in:w')",
+        "edge geometry differs for ('transform:out', 'sink:in')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "ports",
+      "id": "ports-04",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('source:in:s', 'transform:mid:w')",
+        "edge geometry differs for ('source:mid', 'sink:in')",
+        "edge geometry differs for ('transform:mid', 'transform:in')",
+        "edge geometry differs for ('transform:out', 'sink:in')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "ports",
+      "id": "ports-05",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('source:out:e', 'transform:in:w')",
+        "edge geometry differs for ('transform:mid', 'transform:in')",
+        "edge geometry differs for ('transform:out', 'sink:in')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "ports",
+      "id": "ports-06",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "ports",
+      "id": "ports-07",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('source:in:e', 'transform:in:w')",
+        "edge geometry differs for ('source:mid', 'sink:in')",
+        "edge geometry differs for ('source:out:e', 'sink:in:w')",
+        "edge geometry differs for ('transform:mid', 'transform:in')",
+        "edge geometry differs for ('transform:out', 'sink:in')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "ports",
+      "id": "ports-08",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "ports",
+      "id": "ports-09",
+      "passed": false
+    },
+    {
+      "differences": [
+        "node 'alpha one' attributes differ",
+        "node 'audit_0' attributes differ",
+        "node 'beta two' attributes differ",
+        "node 'final_0' attributes differ",
+        "node 'sink' attributes differ",
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "subgraphs",
+      "id": "subgraphs-00",
+      "passed": false
+    },
+    {
+      "differences": [
+        "node 'audit_1' attributes differ",
+        "node 'beta two' attributes differ",
+        "node 'final_1' attributes differ",
+        "node 'gamma three' attributes differ",
+        "node 'sink' attributes differ",
+        "edge geometry differs for ('final_1', 'sink')"
+      ],
+      "family": "subgraphs",
+      "id": "subgraphs-01",
+      "passed": false
+    },
+    {
+      "differences": [
+        "node 'audit_2' attributes differ",
+        "node 'delta four' attributes differ",
+        "node 'final_2' attributes differ",
+        "node 'gamma three' attributes differ",
+        "node 'sink' attributes differ",
+        "edge geometry differs for ('gamma three', 'delta four')",
+        "edge geometry differs for ('delta four', 'final_2')",
+        "edge geometry differs for ('final_2', 'audit_2')"
+      ],
+      "family": "subgraphs",
+      "id": "subgraphs-02",
+      "passed": false
+    },
+    {
+      "differences": [
+        "node 'alpha one' attributes differ",
+        "node 'audit_3' attributes differ",
+        "node 'delta four' attributes differ",
+        "node 'final_3' attributes differ",
+        "node 'sink' attributes differ",
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "subgraphs",
+      "id": "subgraphs-03",
+      "passed": false
+    },
+    {
+      "differences": [
+        "node 'alpha one' attributes differ",
+        "node 'audit_4' attributes differ",
+        "node 'beta two' attributes differ",
+        "node 'final_4' attributes differ",
+        "node 'sink' attributes differ",
+        "edge geometry differs for ('alpha one', 'beta two')",
+        "edge geometry differs for ('beta two', 'final_4')",
+        "edge geometry differs for ('final_4', 'audit_4')"
+      ],
+      "family": "subgraphs",
+      "id": "subgraphs-04",
+      "passed": false
+    },
+    {
+      "differences": [
+        "node 'audit_5' attributes differ",
+        "node 'beta two' attributes differ",
+        "node 'final_5' attributes differ",
+        "node 'gamma three' attributes differ",
+        "node 'sink' attributes differ",
+        "edge geometry differs for ('final_5', 'sink')"
+      ],
+      "family": "subgraphs",
+      "id": "subgraphs-05",
+      "passed": false
+    },
+    {
+      "differences": [
+        "node 'audit_6' attributes differ",
+        "node 'delta four' attributes differ",
+        "node 'final_6' attributes differ",
+        "node 'gamma three' attributes differ",
+        "node 'quoted end' attributes differ",
+        "node 'sink' attributes differ",
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance"
+      ],
+      "family": "subgraphs",
+      "id": "subgraphs-06",
+      "passed": false
+    },
+    {
+      "differences": [
+        "node 'alpha one' attributes differ",
+        "node 'audit_7' attributes differ",
+        "node 'delta four' attributes differ",
+        "node 'final_7' attributes differ",
+        "node 'quoted end' attributes differ",
+        "node 'say \"go\"' attributes differ",
+        "node 'sink' attributes differ",
+        "edge identity or multiplicity differs"
+      ],
+      "family": "subgraphs",
+      "id": "subgraphs-07",
+      "passed": false
+    },
+    {
+      "differences": [
+        "node 'alpha one' attributes differ",
+        "node 'audit_8' attributes differ",
+        "node 'beta two' attributes differ",
+        "node 'final_8' attributes differ",
+        "node 'quoted end' attributes differ",
+        "node 'say \"go\"' attributes differ",
+        "node 'sink' attributes differ",
+        "edge identity or multiplicity differs"
+      ],
+      "family": "subgraphs",
+      "id": "subgraphs-08",
+      "passed": false
+    },
+    {
+      "differences": [
+        "node 'audit_9' attributes differ",
+        "node 'beta two' attributes differ",
+        "node 'final_9' attributes differ",
+        "node 'gamma three' attributes differ",
+        "node 'quoted end' attributes differ",
+        "node 'say \"go\"' attributes differ",
+        "node 'sink' attributes differ",
+        "edge geometry differs for ('beta two', 'gamma three')"
+      ],
+      "family": "subgraphs",
+      "id": "subgraphs-09",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "clusters",
+      "id": "clusters-00",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "clusters",
+      "id": "clusters-01",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('api', 'queue')",
+        "edge geometry differs for ('queue', 'worker')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "clusters",
+      "id": "clusters-02",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "clusters",
+      "id": "clusters-03",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "clusters",
+      "id": "clusters-04",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('api', 'queue')",
+        "edge geometry differs for ('queue', 'worker')",
+        "edge geometry differs for ('worker', 'validate')",
+        "edge geometry differs for ('validate', 'result')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "clusters",
+      "id": "clusters-05",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "clusters",
+      "id": "clusters-06",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "clusters",
+      "id": "clusters-07",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('api', 'queue')",
+        "edge geometry differs for ('queue', 'worker')",
+        "edge geometry differs for ('worker', 'validate')",
+        "edge geometry differs for ('validate', 'result')",
+        "edge geometry differs for ('result', 'archive')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "clusters",
+      "id": "clusters-08",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "clusters",
+      "id": "clusters-09",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "cycles",
+      "id": "cycles-00",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "cycles",
+      "id": "cycles-01",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "cycles",
+      "id": "cycles-02",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "cycles",
+      "id": "cycles-03",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "cycles",
+      "id": "cycles-04",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "cycles",
+      "id": "cycles-05",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "cycles",
+      "id": "cycles-06",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "cycles",
+      "id": "cycles-07",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "cycles",
+      "id": "cycles-08",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "cycles",
+      "id": "cycles-09",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "components",
+      "id": "components-00",
+      "passed": false
+    },
+    {
+      "differences": [],
+      "family": "components",
+      "id": "components-01",
+      "passed": true
+    },
+    {
+      "differences": [],
+      "family": "components",
+      "id": "components-02",
+      "passed": true
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "components",
+      "id": "components-03",
+      "passed": false
+    },
+    {
+      "differences": [],
+      "family": "components",
+      "id": "components-04",
+      "passed": true
+    },
+    {
+      "differences": [],
+      "family": "components",
+      "id": "components-05",
+      "passed": true
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('p', 'q')",
+        "edge geometry differs for ('q', 'r')",
+        "edge geometry differs for ('r', 'p')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "components",
+      "id": "components-06",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge geometry differs for ('a', 'b')",
+        "edge geometry differs for ('b', 'c')",
+        "edge geometry differs for ('c', 'x')",
+        "edge geometry differs for ('x', 'y')",
+        "edge geometry differs for ('separate 7', 'orphan_7')",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "components",
+      "id": "components-07",
+      "passed": false
+    },
+    {
+      "differences": [],
+      "family": "components",
+      "id": "components-08",
+      "passed": true
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "components",
+      "id": "components-09",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "compound",
+      "id": "compound-00",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "compound",
+      "id": "compound-01",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "compound",
+      "id": "compound-02",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "compound",
+      "id": "compound-03",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "compound",
+      "id": "compound-04",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "compound",
+      "id": "compound-05",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "compound",
+      "id": "compound-06",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "compound",
+      "id": "compound-07",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "compound",
+      "id": "compound-08",
+      "passed": false
+    },
+    {
+      "differences": [
+        "edge identity or multiplicity differs",
+        "a coordinate exceeds the absolute tolerance",
+        "mean geometric displacement exceeds tolerance"
+      ],
+      "family": "compound",
+      "id": "compound-09",
+      "passed": false
+    }
+  ],
+  "historical_candidate_sha256": "a7ac6c7bb02f1176a48c3a45cc7247cace2816bfbb21951fa8783284fc8b2b65",
+  "historical_evaluator_sha256": "0db3f2674a83148dd0a751e9aced2c8eccb49f371c1626203b44e8644d74ff28",
+  "model": "gpt-5.6-terra",
+  "passed": 27,
+  "reasoning_effort": "xhigh",
+  "score_percent": 22.5,
+  "time_ceiling_seconds": 21600,
+  "total": 120,
+  "trial": "trial-16"
+}
