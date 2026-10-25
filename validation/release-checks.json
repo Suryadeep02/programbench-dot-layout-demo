@@ -1,0 +1,32 @@
+{
+  "historical_score_records_checked": 8,
+  "historical_case_decisions_checked": 960,
+  "historical_scores_arithmetic_match": true,
+  "corpus_hashes_checked": true,
+  "docker_unit_tests_completed": true,
+  "reference_replay_completed": true,
+  "saved_candidate_replay_completed": true,
+  "new_model_attempts": 0,
+  "docker_unit_tests": {
+    "discovered": 43,
+    "passed": 38,
+    "skipped": 5,
+    "failed": 0,
+    "platform": "linux/amd64"
+  },
+  "reference_replay": {
+    "passed": 120,
+    "total": 120,
+    "method": "existing pinned reference, fresh isolated local containers; no source rebuild"
+  },
+  "saved_candidate_replay": {
+    "trial": "trial-15",
+    "passed": 44,
+    "total": 120,
+    "all_per_case_pass_decisions_match_recorded": true,
+    "new_model_attempt": false,
+    "candidate_source_not_distributed": true
+  },
+  "remaining_docker_integration_tests_not_run": 4,
+  "source_rebuild_of_reference_performed": false
+}
