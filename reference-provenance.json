@@ -1,0 +1,12 @@
+{
+  "reference_program": "Graphviz dot_static 14.0.4",
+  "source_url": "https://gitlab.com/api/v4/projects/4207231/packages/generic/graphviz-releases/14.0.4/graphviz-14.0.4.tar.gz",
+  "source_sha256": "ddac5f15ad1b2ad6d715cc64d6d0e6a366310c09c2c3a11284dafd1630e353b6",
+  "reference_sha256": "2ba4c30c40f0238d40efe1d931a15e05858c561e1655f3bfa522b64f00341a25",
+  "pinned_archive_license": "Eclipse Public License 1.0 as present in COPYING and source headers",
+  "builder": "gcc@sha256:9188ac751ca24431dc43dbd142a223c98ea74f01d2858e84d30ba342a0d67844",
+  "platform": "linux/amd64",
+  "binary_distributed": false,
+  "source_archive_distributed": false,
+  "historical_evaluator_sha256": "0db3f2674a83148dd0a751e9aced2c8eccb49f371c1626203b44e8644d74ff28"
+}
